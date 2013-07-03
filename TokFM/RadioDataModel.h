@@ -11,6 +11,7 @@
 @interface RadioDataModel : NSObject
 
 @property (nonatomic, retain) NSURL *streamURL;
+@property (nonatomic, retain) NSDictionary *programming;
 
 + (RadioDataModel *) sharedObject;
 

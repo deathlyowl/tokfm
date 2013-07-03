@@ -9,7 +9,7 @@
 #import "RadioDataModel.h"
 
 @implementation RadioDataModel
-@synthesize streamURL;
+@synthesize streamURL, programming;
 
 + (RadioDataModel *) sharedObject
 {
@@ -33,6 +33,7 @@
                                                                error:&error];
         
         streamURL = [NSURL URLWithString:[json objectForKey:@"stream"]];
+        programming = [json objectForKey:@"programming"];
     }
     return self;
 }

@@ -64,7 +64,9 @@
 		FA02F5A91784915900AEBD51 /* z13965552D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5801784915900AEBD51 /* z13965552D.jpg */; };
 		FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5811784915900AEBD51 /* z13966001D.jpg */; };
 		FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5AC1784918200AEBD51 /* tokfm.json */; };
+		FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */; };
 		FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA681D61784A2BF008AD6EB /* RadioDataModel.m */; };
+		FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC5D161784A62500ADACC7 /* DORadioViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,8 +143,12 @@
 		FA02F5801784915900AEBD51 /* z13965552D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13965552D.jpg; sourceTree = "<group>"; };
 		FA02F5811784915900AEBD51 /* z13966001D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13966001D.jpg; sourceTree = "<group>"; };
 		FA02F5AC1784918200AEBD51 /* tokfm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokfm.json; sourceTree = "<group>"; };
+		FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOProgrammingViewController.h; sourceTree = "<group>"; };
+		FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgrammingViewController.m; sourceTree = "<group>"; };
 		FAA681D51784A2BF008AD6EB /* RadioDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioDataModel.h; sourceTree = "<group>"; };
 		FAA681D61784A2BF008AD6EB /* RadioDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioDataModel.m; sourceTree = "<group>"; };
+		FAAC5D151784A62500ADACC7 /* DORadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DORadioViewController.h; sourceTree = "<group>"; };
+		FAAC5D161784A62500ADACC7 /* DORadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DORadioViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,10 @@
 				FAA681D51784A2BF008AD6EB /* RadioDataModel.h */,
 				FAA681D61784A2BF008AD6EB /* RadioDataModel.m */,
 				FA02F5331784914300AEBD51 /* Main.storyboard */,
+				FAAC5D151784A62500ADACC7 /* DORadioViewController.h */,
+				FAAC5D161784A62500ADACC7 /* DORadioViewController.m */,
+				FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */,
+				FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */,
 				FA02F5361784914300AEBD51 /* DOFirstViewController.h */,
 				FA02F5371784914300AEBD51 /* DOFirstViewController.m */,
 				FA02F5391784914300AEBD51 /* DOSecondViewController.h */,
@@ -439,8 +449,10 @@
 				FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */,
 				FA02F52E1784914300AEBD51 /* main.m in Sources */,
 				FA02F53B1784914300AEBD51 /* DOSecondViewController.m in Sources */,
+				FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */,
 				FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */,
 				FA02F5381784914300AEBD51 /* DOFirstViewController.m in Sources */,
+				FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
