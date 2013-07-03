@@ -64,6 +64,7 @@
 		FA02F5A91784915900AEBD51 /* z13965552D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5801784915900AEBD51 /* z13965552D.jpg */; };
 		FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5811784915900AEBD51 /* z13966001D.jpg */; };
 		FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5AC1784918200AEBD51 /* tokfm.json */; };
+		FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA681D61784A2BF008AD6EB /* RadioDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,8 @@
 		FA02F5801784915900AEBD51 /* z13965552D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13965552D.jpg; sourceTree = "<group>"; };
 		FA02F5811784915900AEBD51 /* z13966001D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13966001D.jpg; sourceTree = "<group>"; };
 		FA02F5AC1784918200AEBD51 /* tokfm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokfm.json; sourceTree = "<group>"; };
+		FAA681D51784A2BF008AD6EB /* RadioDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioDataModel.h; sourceTree = "<group>"; };
+		FAA681D61784A2BF008AD6EB /* RadioDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +204,8 @@
 			children = (
 				FA02F5301784914300AEBD51 /* DOAppDelegate.h */,
 				FA02F5311784914300AEBD51 /* DOAppDelegate.m */,
+				FAA681D51784A2BF008AD6EB /* RadioDataModel.h */,
+				FAA681D61784A2BF008AD6EB /* RadioDataModel.m */,
 				FA02F5331784914300AEBD51 /* Main.storyboard */,
 				FA02F5361784914300AEBD51 /* DOFirstViewController.h */,
 				FA02F5371784914300AEBD51 /* DOFirstViewController.m */,
@@ -431,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */,
 				FA02F52E1784914300AEBD51 /* main.m in Sources */,
 				FA02F53B1784914300AEBD51 /* DOSecondViewController.m in Sources */,
 				FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */,
@@ -637,6 +643,7 @@
 				FA02F5551784914300AEBD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA02F5561784914300AEBD51 /* Build configuration list for PBXNativeTarget "TokFMTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +652,7 @@
 				FA02F5581784914300AEBD51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
