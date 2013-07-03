@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA02F5221784914300AEBD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5211784914300AEBD51 /* Foundation.framework */; };
+		FA02F5241784914300AEBD51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5231784914300AEBD51 /* CoreGraphics.framework */; };
+		FA02F5261784914300AEBD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5251784914300AEBD51 /* UIKit.framework */; };
+		FA02F52C1784914300AEBD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA02F52A1784914300AEBD51 /* InfoPlist.strings */; };
+		FA02F52E1784914300AEBD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02F52D1784914300AEBD51 /* main.m */; };
+		FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02F5311784914300AEBD51 /* DOAppDelegate.m */; };
+		FA02F5351784914300AEBD51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5331784914300AEBD51 /* Main.storyboard */; };
+		FA02F5381784914300AEBD51 /* DOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02F5371784914300AEBD51 /* DOFirstViewController.m */; };
+		FA02F53B1784914300AEBD51 /* DOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02F53A1784914300AEBD51 /* DOSecondViewController.m */; };
+		FA02F53D1784914300AEBD51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA02F53C1784914300AEBD51 /* Images.xcassets */; };
+		FA02F5441784914300AEBD51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5431784914300AEBD51 /* XCTest.framework */; };
+		FA02F5451784914300AEBD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5211784914300AEBD51 /* Foundation.framework */; };
+		FA02F5461784914300AEBD51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA02F5251784914300AEBD51 /* UIKit.framework */; };
+		FA02F54E1784914300AEBD51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA02F54C1784914300AEBD51 /* InfoPlist.strings */; };
+		FA02F5501784914300AEBD51 /* TokFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02F54F1784914300AEBD51 /* TokFMTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA02F5471784914300AEBD51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA02F5161784914300AEBD51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA02F51D1784914300AEBD51;
+			remoteInfo = TokFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA02F51E1784914300AEBD51 /* TokFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02F5211784914300AEBD51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA02F5231784914300AEBD51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA02F5251784914300AEBD51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA02F5291784914300AEBD51 /* TokFM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TokFM-Info.plist"; sourceTree = "<group>"; };
+		FA02F52B1784914300AEBD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA02F52D1784914300AEBD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA02F52F1784914300AEBD51 /* TokFM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TokFM-Prefix.pch"; sourceTree = "<group>"; };
+		FA02F5301784914300AEBD51 /* DOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOAppDelegate.h; sourceTree = "<group>"; };
+		FA02F5311784914300AEBD51 /* DOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOAppDelegate.m; sourceTree = "<group>"; };
+		FA02F5341784914300AEBD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA02F5361784914300AEBD51 /* DOFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOFirstViewController.h; sourceTree = "<group>"; };
+		FA02F5371784914300AEBD51 /* DOFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOFirstViewController.m; sourceTree = "<group>"; };
+		FA02F5391784914300AEBD51 /* DOSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOSecondViewController.h; sourceTree = "<group>"; };
+		FA02F53A1784914300AEBD51 /* DOSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOSecondViewController.m; sourceTree = "<group>"; };
+		FA02F53C1784914300AEBD51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA02F5421784914300AEBD51 /* TokFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02F5431784914300AEBD51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA02F54B1784914300AEBD51 /* TokFMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TokFMTests-Info.plist"; sourceTree = "<group>"; };
+		FA02F54D1784914300AEBD51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA02F54F1784914300AEBD51 /* TokFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokFMTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA02F51B1784914300AEBD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F5241784914300AEBD51 /* CoreGraphics.framework in Frameworks */,
+				FA02F5261784914300AEBD51 /* UIKit.framework in Frameworks */,
+				FA02F5221784914300AEBD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA02F53F1784914300AEBD51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F5441784914300AEBD51 /* XCTest.framework in Frameworks */,
+				FA02F5461784914300AEBD51 /* UIKit.framework in Frameworks */,
+				FA02F5451784914300AEBD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA02F5151784914300AEBD51 = {
+			isa = PBXGroup;
+			children = (
+				FA02F5271784914300AEBD51 /* TokFM */,
+				FA02F5491784914300AEBD51 /* TokFMTests */,
+				FA02F5201784914300AEBD51 /* Frameworks */,
+				FA02F51F1784914300AEBD51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA02F51F1784914300AEBD51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F51E1784914300AEBD51 /* TokFM.app */,
+				FA02F5421784914300AEBD51 /* TokFMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA02F5201784914300AEBD51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F5211784914300AEBD51 /* Foundation.framework */,
+				FA02F5231784914300AEBD51 /* CoreGraphics.framework */,
+				FA02F5251784914300AEBD51 /* UIKit.framework */,
+				FA02F5431784914300AEBD51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA02F5271784914300AEBD51 /* TokFM */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F5301784914300AEBD51 /* DOAppDelegate.h */,
+				FA02F5311784914300AEBD51 /* DOAppDelegate.m */,
+				FA02F5331784914300AEBD51 /* Main.storyboard */,
+				FA02F5361784914300AEBD51 /* DOFirstViewController.h */,
+				FA02F5371784914300AEBD51 /* DOFirstViewController.m */,
+				FA02F5391784914300AEBD51 /* DOSecondViewController.h */,
+				FA02F53A1784914300AEBD51 /* DOSecondViewController.m */,
+				FA02F53C1784914300AEBD51 /* Images.xcassets */,
+				FA02F5281784914300AEBD51 /* Supporting Files */,
+			);
+			path = TokFM;
+			sourceTree = "<group>";
+		};
+		FA02F5281784914300AEBD51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F5291784914300AEBD51 /* TokFM-Info.plist */,
+				FA02F52A1784914300AEBD51 /* InfoPlist.strings */,
+				FA02F52D1784914300AEBD51 /* main.m */,
+				FA02F52F1784914300AEBD51 /* TokFM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA02F5491784914300AEBD51 /* TokFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F54F1784914300AEBD51 /* TokFMTests.m */,
+				FA02F54A1784914300AEBD51 /* Supporting Files */,
+			);
+			path = TokFMTests;
+			sourceTree = "<group>";
+		};
+		FA02F54A1784914300AEBD51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA02F54B1784914300AEBD51 /* TokFMTests-Info.plist */,
+				FA02F54C1784914300AEBD51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA02F51D1784914300AEBD51 /* TokFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA02F5531784914300AEBD51 /* Build configuration list for PBXNativeTarget "TokFM" */;
+			buildPhases = (
+				FA02F51A1784914300AEBD51 /* Sources */,
+				FA02F51B1784914300AEBD51 /* Frameworks */,
+				FA02F51C1784914300AEBD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokFM;
+			productName = TokFM;
+			productReference = FA02F51E1784914300AEBD51 /* TokFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA02F5411784914300AEBD51 /* TokFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA02F5561784914300AEBD51 /* Build configuration list for PBXNativeTarget "TokFMTests" */;
+			buildPhases = (
+				FA02F53E1784914300AEBD51 /* Sources */,
+				FA02F53F1784914300AEBD51 /* Frameworks */,
+				FA02F5401784914300AEBD51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA02F5481784914300AEBD51 /* PBXTargetDependency */,
+			);
+			name = TokFMTests;
+			productName = TokFMTests;
+			productReference = FA02F5421784914300AEBD51 /* TokFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA02F5161784914300AEBD51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Deathly Owl";
+				TargetAttributes = {
+					FA02F5411784914300AEBD51 = {
+						TestTargetID = FA02F51D1784914300AEBD51;
+					};
+				};
+			};
+			buildConfigurationList = FA02F5191784914300AEBD51 /* Build configuration list for PBXProject "TokFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA02F5151784914300AEBD51;
+			productRefGroup = FA02F51F1784914300AEBD51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA02F51D1784914300AEBD51 /* TokFM */,
+				FA02F5411784914300AEBD51 /* TokFMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA02F51C1784914300AEBD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F53D1784914300AEBD51 /* Images.xcassets in Resources */,
+				FA02F52C1784914300AEBD51 /* InfoPlist.strings in Resources */,
+				FA02F5351784914300AEBD51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA02F5401784914300AEBD51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F54E1784914300AEBD51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA02F51A1784914300AEBD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F52E1784914300AEBD51 /* main.m in Sources */,
+				FA02F53B1784914300AEBD51 /* DOSecondViewController.m in Sources */,
+				FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */,
+				FA02F5381784914300AEBD51 /* DOFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA02F53E1784914300AEBD51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02F5501784914300AEBD51 /* TokFMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA02F5481784914300AEBD51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA02F51D1784914300AEBD51 /* TokFM */;
+			targetProxy = FA02F5471784914300AEBD51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA02F52A1784914300AEBD51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA02F52B1784914300AEBD51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA02F5331784914300AEBD51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA02F5341784914300AEBD51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA02F54C1784914300AEBD51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA02F54D1784914300AEBD51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA02F5511784914300AEBD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA02F5521784914300AEBD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA02F5541784914300AEBD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokFM/TokFM-Prefix.pch";
+				INFOPLIST_FILE = "TokFM/TokFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA02F5551784914300AEBD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokFM/TokFM-Prefix.pch";
+				INFOPLIST_FILE = "TokFM/TokFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA02F5571784914300AEBD51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TokFM.app/TokFM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokFM/TokFM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TokFMTests/TokFMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA02F5581784914300AEBD51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TokFM.app/TokFM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TokFM/TokFM-Prefix.pch";
+				INFOPLIST_FILE = "TokFMTests/TokFMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA02F5191784914300AEBD51 /* Build configuration list for PBXProject "TokFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02F5511784914300AEBD51 /* Debug */,
+				FA02F5521784914300AEBD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA02F5531784914300AEBD51 /* Build configuration list for PBXNativeTarget "TokFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02F5541784914300AEBD51 /* Debug */,
+				FA02F5551784914300AEBD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA02F5561784914300AEBD51 /* Build configuration list for PBXNativeTarget "TokFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02F5571784914300AEBD51 /* Debug */,
+				FA02F5581784914300AEBD51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA02F5161784914300AEBD51 /* Project object */;
+}
