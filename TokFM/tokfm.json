@@ -1,384 +1,355 @@
 {
-	"name" : "TOK FM",
-	"stream" : "http://mainstream.radioagora.pl/tuba10-1.mp3",
-	"rss" : {
-		"Najważniejsze" :	"http://www.tokfm.pl/pub/rss/tokfmpl_glowne.xml",
-		"Polska" : 			"http://www.tokfm.pl/pub/rss/tokfmpl_polska.xml",
-		"Świat" : 			"http://www.tokfm.pl/pub/rss/tokfmpl_swiat.xml",
-		"Polityczne" :		"http://www.tokfm.pl/pub/rss/tokfmpl_polityka.xml",
-		"Biznesowe" :		"http://www.tokfm.pl/pub/rss/tokfmpl_biznes.xml",
-		"Kulturalne" : 		"http://www.tokfm.pl/pub/rss/tokfmpl_kultura.xml",
-		"O mediach" :		"http://www.tokfm.pl/pub/rss/tokfmpl_media.xml",
-		"Rozrywka" :		"http://www.tokfm.pl/pub/rss/tokfmpl_rozrywka.xml",
-		"Sport" :			"http://www.tokfm.pl/pub/rss/tokfmpl_sport.xml"
-	},
-	"programming" : {
-		"MON" : {
-			"0" 	: "Program nocny",
-			"300" 	: "Pierwsze Śniadanie w TOKu",
-			"400"	: "Pierwszy Gospodarczy Program Radia TOK FM",
-			"420"	: "Poranek Radia TOK FM",
-			"540"	: "EKG",
-			"600"	: "OFF Czarek",
-			"760"	: "Raport Gospodarczy",
-			"775"	: "Na Apetyt... Adamczewski!",
-			"780"	: "Połączenie",
-			"880"	: "Jeszcze Więcej Sportu",
-			"900"	: "Godziny Szczytu — Polityka",
-			"960"	: "Godziny Szczytu - Gospodarka",
-			"1000"	: "Godziny Szczytu - Sport",
-			"1020"	: "Godziny Szczytu — Magazyn Reporterów",
-			"1060"	: "Godziny Szczytu — Kultura",
-			"1080"	: "Post Factum",
-			"1180"	: "Codzienny Magazyn Motoryzacyjny",
-			"1200"	: "Salon Radia TOK FM — Zrozumieć Świat",
-			"1260"	: "Wieczór Radia TOK FM — Lornetka",
-			"1320"	: "Wieczór Radia TOK FM — Bez Laski"
-		},
-		"TUE" : {
-			"0" 	: "Program nocny",
-			"300" 	: "Pierwsze Śniadanie w TOKu",
-			"400"	: "Pierwszy Gospodarczy Program Radia TOK FM",
-			"420"	: "Poranek Radia TOK FM",
-			"540"	: "EKG",
-			"600"	: "OFF Czarek",
-			"760"	: "Raport Gospodarczy",
-			"775"	: "Na Apetyt... Adamczewski!",
-			"780"	: "Połączenie",
-			"880"	: "Muzyczne Sito",
-			"900"	: "Godziny Szczytu — Polityka",
-			"960"	: "Godziny Szczytu - Gospodarka",
-			"1000"	: "Godziny Szczytu - Sport",
-			"1020"	: "Godziny Szczytu — Magazyn Reporterów",
-			"1060"	: "Godziny Szczytu — Kultura",
-			"1080"	: "Post Factum",
-			"1180"	: "Codzienny Magazyn Motoryzacyjny",
-			"1200"	: "Salon Radia TOK FM — Goście Passenta",
-			"1260"	: "Wieczór Radia TOK FM — Tylko dla dojrzałych",
-			"1320"	: "Wieczór Radia TOK FM — Kwasem i Kłosem",
-			"1380"	: "Wieczór Radia TOK FM — Alternatywa"
-		},
-		"WEN" : {
-			"0" 	: "Program nocny",
-			"300" 	: "Pierwsze Śniadanie w TOKu",
-			"400"	: "Pierwszy Gospodarczy Program Radia TOK FM",
-			"420"	: "Poranek Radia TOK FM",
-			"540"	: "EKG",
-			"600"	: "OFF Czarek",
-			"760"	: "Raport Gospodarczy",
-			"775"	: "Na Apetyt... Adamczewski!",
-			"780"	: "Połączenie",
-			"880"	: "Krakowskie Przedmieście",
-			"900"	: "Godziny Szczytu — Polityka",
-			"960"	: "Godziny Szczytu - Gospodarka",
-			"1000"	: "Godziny Szczytu - Sport",
-			"1020"	: "Godziny Szczytu — Magazyn Reporterów",
-			"1060"	: "Godziny Szczytu — Kultura",
-			"1080"	: "Post Factum",
-			"1180"	: "Codzienny Magazyn Motoryzacyjny",
-			"1200"	: "Salon Radia TOK FM — Szczerotok",
-			"1260"	: "Wieczór Radia TOK FM — Materializacja",
-			"1320"	: "Wieczór Radia TOK FM — Oburzeni"
-		},
-		"THU" : {
-			"0" 	: "Program nocny",
-			"300" 	: "Pierwsze Śniadanie w TOKu",
-			"400"	: "Pierwszy Gospodarczy Program Radia TOK FM",
-			"420"	: "Poranek Radia TOK FM",
-			"540"	: "EKG",
-			"600"	: "OFF Czarek",
-			"760"	: "Raport Gospodarczy",
-			"775"	: "Na Apetyt... Adamczewski!",
-			"780"	: "Połączenie",
-			"880"	: "Andymateria",
-			"900"	: "Godziny Szczytu — Polityka",
-			"960"	: "Godziny Szczytu - Gospodarka",
-			"1000"	: "Godziny Szczytu - Sport",
-			"1020"	: "Godziny Szczytu — Magazyn Reporterów",
-			"1060"	: "Godziny Szczytu — Kultura",
-			"1080"	: "Post Factum",
-			"1180"	: "Codzienny Magazyn Motoryzacyjny",
-			"1200"	: "Salon Radia TOK FM — Teraz Solska",
-			"1260"	: "Wieczór Radia TOK FM — Radiowa Akademia Nauk",
-			"1320"	: "Wieczór Radia TOK FM — Biosfera",
-			"1380"	: "Wieczór Radia TOK FM — Klasyki dla grzeszników"
-		},
-		"FRI" : {
-			"0" 	: "Program nocny",
-			"300" 	: "Pierwsze Śniadanie w TOKu",
-			"400"	: "Pierwszy Gospodarczy Program Radia TOK FM",
-			"420"	: "Poranek Radia TOK FM",
-			"540"	: "EKG",
-			"600"	: "OFF Czarek",
-			"760"	: "Raport Gospodarczy",
-			"775"	: "Na Apetyt... Adamczewski!",
-			"780"	: "Połączenie",
-			"880"	: "Lista Przebojów Radia TOK FM",
-			"900"	: "Godziny Szczytu — Polityka",
-			"960"	: "Godziny Szczytu - Gospodarka",
-			"1000"	: "Godziny Szczytu - Sport",
-			"1020"	: "Godziny Szczytu — Magazyn Reporterów",
-			"1060"	: "Godziny Szczytu — Kultura",
-			"1080"	: "Światopodgląd",
-			"1180"	: "Codzienny Magazyn Motoryzacyjny",
-			"1200"	: "Salon Radia TOK FM — PIWO",
-			"1260"	: "Wieczór Radia TOK FM — Horyzonty",
-			"1320"	: "Wieczór Radia TOK FM — Kobiecy Eter",
-			"1380"	: "Wieczór Radia TOK FM — Dorosłe Dzieci"
-		},
-		"SAT" : {
-			"0" 	: "Program nocny",
-			"420"	: "Poranny Przegląd Prasy",
-			"480"	: "Koło historii",
-			"540"	: "Skołowani",
-			"600"	: "Sobotni Poranek Radia TOK FM",
-			"720"	: "Program Telewizyjny",
-			"780"	: "Sztuka życia",
-			"840"	: "Magazyn Motoryzacyjny",
-			"900"	: "TOK, TOK na Wysokich Obcasach",
-			"960"	: "Weekend Radia TOK FM",
-			"1020"	: "Poczytalni",
-			"1080"	: "Zielono mi",
-			"1140"	: "Człowiek 2.0",
-			"1260"	: "PTOK — PYTA.PL w Radiu TOK FM",
-			"1320"	: "Między Słowami",
-			"1380"	: "WWW Jazz"
-		},
-		"SUN" : {
-			"0" 	: "Program nocny",
-			"420"	: "Poranny Przegląd Prasy Regionalnej",
-			"480"	: "Niedzielny Poranek Radia TOK FM",
-			"540"	: "Wierzę w zwierzę",
-			"600"	: "Niedzielny Poranek Radia TOK FM",
-			"720"	: "Światowidz",
-			"780"	: "Transformacja",
-			"840"	: "Strefa Szefa",
-			"900"	: "Dość Przemocy",
-			"960"	: "Na kłopoty Kolińska/TOK Myślenia",
-			"1020"	: "Przy niedzieli o sporcie",
-			"1140"	: "Weekend Radia TOK FM",
-			"1200"	: "Wywiad Pogłębiony",
-			"1260"	: "TOK z Gwiazdą/Więcej niż kino",
-			"1320"	: "U TOKtora",
-			"1380"	: "Lepiej późno niż wcale"
-		}
-	},
-	"programs": {
-		"Poranek Radia TOK FM" : {
-			"host" : {
-				"MON" : "Dominika Wielowieyska",
-				"TUE" : "Jan Wróbel",
-				"WEN" : "Tomasz Sekielski",
-				"THU" : "Janina Paradowska",
-				"FRI" : "Jacek Żakowski"
-			},
-			"description" : "\"Poranek Radia TOK FM\" to codzienna audycja publicystyczna, której gospodarzami są znani dziennikarze. Tematy poruszane w Poranku to najważniejsze aktualne wydarzenia polityczne, społeczne, gospodarcze, kulturalne z kraju i ze świata. Gospodarze programu rozmawiają o nich z politykami, ekspertami, publicystami ze wszystkich najważniejszych mediów w Polsce. Poranek jest pluralistycznym i wielostronnym przeglądem opcji, opinii, poglądów na każdy ważny i interesujący temat. Żywym i szybko reagującym forum wymiany myśli, komentarzy i interpretacji otaczającej nas rzeczywistości.",
-			"contact" : "poranek@tok.fm"
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-poranek-radia-tokfm.xml"
-		},
-		"Salon Radia TOK FM" : {
-			"host" : {
-				"MON" : "Wiktor Osiatyński",
-				"TUE" : "Daniel Passent",
-				"WEN" : "Tomasz Raczek",
-				"THU" : "Joanna Solska",
-				"FRI" : "Mikołaj Lizut"
-			}
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-salon.xml"
-		},
-		"EKG" : {
-			"host" : "Tadeusz Mosz",
-			"description" : "Audycja EKG adresowana jest do wszystkich których pasjonuje gospodarka i tych, którzy gospodarkę chcą zrozumieć. W naszym programie obnażamy absurdy codziennego życia - absurdy kosztowne dla nas wszystkich. Chwalimy to co godne pochwały. Mówimy o inwestycjach osobistych i wielkich rządowych planach. Nie brakuje wieści z giełdy, rynku walutowego i najciekawszych publikacji prasowych. Słowem wszystko co ważne dla gospodarki. Program składa się trzech części. W każdym wydaniu, sprawdzamy czy nowy dzień zmienił naszą sytuację materialną, słowem \"czy jesteśmy bogatsi czy biedniejsi\". Audycję kończą \"zdziwienia\" naszych gości. A gości mamy wielu. To wybitni eksperci ekonomiczni, profesorowie, ministrowie, prezesi, przedsiębiorcy.",
-			"contact" : "ekg@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/radiotokfm-ekg.xml"
-		}
-		"OFF Czarek" : {
-			"host" : "Cezary Łasiczka",
-			"contact" : "czarek@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-off-czarek.xml"
-		},
-		"Połączenie" : {
-			"host" : "Jakub Janiszewski",
-			"contact" : "polaczenie@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-polaczenie.xml"
-		},
-		"Pierwsze Śniadanie w TOKu" : {
-			"host" : "Piotr Maślak",
-			"description" : "\"Pierwsze Śniadanie w TOKu\" - Gospodarz programu Piotr Maślak zaprasza na wspólną kawę i śniadanie razem z Radiem TOK FM. To codzienna informacyjno-publicystyczna audycja rozpoczynająca napięty radiowy grafik. W programie poruszane są tematy: polityczne, gospodarcze, jednak w luźniejszej formule. W \"Pierwszym Śniadaniu w TOKu\" jest również miejsce na szeroko pojętą kulturę czy problemy społeczne. Niektórym wydaje się, że to zabójcza godzina, mimo to już od godziny 6.00 bieżące wydarzenia komentują w programie liczni goście. Na pierwsze śniadanie z redakcją TOK FM skusił się wielokrotnie prof. Zbigniew Lewicki, prof. Janusz Czapiński, dr Paweł Laidler, Jacek Rakowiecki, Robert Leszczyński, Bogumiła Wander, Marek Zając czy Zdzisław Pietrasik. Usatysfakcjonowani powinni być też zwolennicy przeglądania porannej prasy przy kawie. Po 5.20 z przymrużeniem oka Piotr Maślak komentuje treść tabloidów, a po 6.00 jest miejsce również na poważną prasę.",
-			"contact" : "sniadanie@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-pierwsze-sniadanie.xml"
-		},
-		"Pierwszy Gospodarczy Program Radia TOK FM" : {
-			"host" : "Aleksandra Diadykiewicz"
-		},
-		"Andymateria" : {
-			"host" : {
-				"Anna Wacławik-Orpik",
-				"Anda Rottenberg"
-			}
-			"description" : "Krótki, intensywny program o sztuce. Autorki: Anda Rottenberg - historyk, krytyk sztuki, kuratorka wielu głośnych wystaw w Polsce i za granicami kraju, była szefowa Galerii Narodowej \"Zachęta\". Autorka licznych publikacji o sztuce. W programie \"Andymateria\" w roli eksperta, który patrząc na dzieło sztuki rozumie co widzi i potrafi o tym opowiadać. Anna Wacławik-Orpik - archeolog, dziennikarka Radia TOK FM. Amatorka sztuki, czyli osoba, która sztukę lubi i próbuje zrozumieć. W \"Andymaterii\" prowokuje Andę Rottenberg do opowiadania o artystach, ich dziełach i zjawiskach, które wzbogacają świat widzialny. Razem zapraszają na antenę Radia TOK FM, do największej galerii w Polsce"
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-andymateria.xml"
-		},
-		"Wieczór Radia TOK FM" : {
-			"host" : {
-				"MON" : "Tomasz Kwaśniewski",
-				"TUE" : "Tomasz Kwaśniewski",
-				"WEN" : "Tomasz Kwaśniewski",
-				"THU" : "Karolina Głowacka",
-				"FRI" : "Hanna Zielińska",
-			},
-			"contact" : "wieczor@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-wieczor.xml"
-		},
-		"Post Factum" : {
-			"host" : {
-				"MON" : "Agata Kowalska",
-				"TUE" : "Agata Kowalska",
-				"WEN" : "Paweł Sulik",
-				"THU" : "Paweł Sulik"
-			},
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-post-factum.xml"
-		},
-		"PTOK" : {
-			"podcast" : "http://www.tok.fm//pub/rss/podcast/tokfm-ptok.xml"
-		},
-		"Godziny Szczytu" : {
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-godzina-szczytu.xml"
-		},
-		"Codzienny Magazyn Motoryzacyjny" : {
-			"host" : {
-				"Jacek Balkan",
-				"Sławek Paruszewski"
-			}
-			"description" : "Zawsze rzetelnie, ale z poczuciem humoru i szczyptą złośliwości. Ponoć to najlepszy polski program motoryzacyjny, ale... nie nam oceniać.",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-cmm.xml"
-		},
-		"Muzyczne Sito TOK FM" : {
-			"host" : "Paweł Sito",
-			"description" : "Paweł Sito w swoim programie autorskim odpowie na wszystkie pytania dotyczące przemysłu muzycznego. Nowości muzyczne warte posłuchania, zapowiedzi, branżowe newsy i przemysł muzyczny od podszewki - czyli wszystko to, co warto wiedzieć o muzyce, ale nie było dotąd kogo zapytać."
-		},
-		"Jeszcze więcej sportu" : {
-			"host" : "Kacper Merk",
-			"description" : "Magazyn sportowy Radia TOK FM, w którym komentujemy najważniejsze wydarzenia sportowych aren. Naszymi gośćmi są zawodnicy, trenerzy, działacze i publicyści związani z najpopularniejszymi dyscyplinami. Mówimy o tym co było, jest i będzie najważniejsze. Nie umknie nam żaden sukces Polskich sportowców!",
-			"contact" : "sport@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-jeszcze-wiecej-sportu.xml"
-		},
-		"Raport Gospodarczy" : {
-			"host" : {
-				"MON" : "Maciej Głogowski",
-				"TUE" : "Maciej Głogowski",
-				"WEN" : "Maciej Głogowski",
-				"THU" : "Maciej Głogowski",
-				"FRI" : "Aleksandra Dziadykiewicz"
-			},
-			"description" : "Kursy walut, aukcje obligacji, wskaźniki giełdowe, wycena spółek, budżet, bezrobocie, reforma emerytur, kredyty hipoteczne, strefa euro, lokaty... To tematy, które pojawiają się w Raportach Gospodarczych. Rozmawiamy z ekspertami i wyjaśniamy mechanizmy i wydarzenia z polskiej i światowej gospodarki.",
-		},
-		"Na apetyt... Adamczewski!" : {
-			"host" : "Piotr Adamczewski",
-			"description" : "Bez apetytu życie traci blask!"
-		},
-		"Światopodgląd" : {
-			"host" : "Agnieszka Lichnerowicz", 
-			"description" : "\"Światopodgląd\" to po pierwsze przegląd i podsumowanie najważniejszych wydarzeń na świecie. Po drugie, debatujemy na temat najważniejszych książek, najgorętszych idei, czy najciekawszych zjawisk dotyczących demokracji, polityki społecznej, gospodarki czy pomocy rozwojowej. Po trzecie, sprawdzamy jak z dyskutowanymi w Polsce problemami poradziły sobie inne kraje, a po czwarte jak społeczno - ekonomiczna sytuację komentuje film, czy literatura.",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-swiatopodglad.xml"
-		},
-		"Lista Przebojów TOK FM" : {
-			"host" : "Bartosz Dąbrowski",
-			"description" : "Notowania listy to wypowiedzi gości lub prowadzących Radia TOK FM zwracających uwagę słuchaczy w ostatnim tygodniu - zabawne, bulwersujące, dziwne, kontrowersyjne lub wyjątkowo ważne. Wszystkie wypowiedzi nominowane do Listy Przebojów Radia TOK FM są dostępne do odsłuchania na stronie internetowej tokfm.pl/lista. Co tydzień na antenie prezentowany jest wynik głosowania słuchaczy."
-		},
-		"Skołowani" : {
-			"host" : {
-				"Agata Kowalska",
-				"Krzysztof Woźniak"
-			}
-			"description" : "W programie spróbujemy zażegnać (lub chociaż wyhamować) odwieczny konflikt pomiędzy rowerzystami a kierowcami. Specjalistów zapytamy o pomysły na poprawienie bezpieczeństwa rowerzystów a tym samym bezpieczeństwa na drodze. Osoby znane i lubiane poprosimy o wyjawienie, jak im się jeździ na rowerze po mieście. Sprawdzimy również jak wygląda sytuacja rowerzystów w innych krajach.",
-			"contact" : "skolowani@tok.fm",
-			"podcast" : "http://serwisy.gazeta.pl/pub/rss/podcast/tokfm-skolowani.xml"
-		},
-		"Poczytalni" : {
-			"host" : {
-				"Patrycja Wanat",
-				"Agnieszka Lichnerowicz",
-				"Agata Kowalska",
-				"Paweł Kierzniewski",
-				"Dionis Sturis",
-				"Paweł Sulik",
-				"Łukasz Wojtusik"
-			},
-			"description" : "\"Poczytalni\" zbierają się raz w tygodniu, by przy kawie lub herbacie rozmawiać o książkach. Do naszego klubu należą dziennikarze, pracownicy i współpracownicy. Mamy nadzieję, że nasze zaproszenie przyjmą też słuchacze. Nie robimy krytycznej analizy dzieła, nie zastanawiamy się nad historycznymi odniesieniami i kontekstem literackim. Jesteśmy zwykłymi czytelnikami i chcemy też zachęcić naszych słuchaczy, by czytali razem z nami i dzielili się swoimi wrażeniami i przemyśleniami. Pomysłodawcą programu jest Patrycja Wanat. W dyskusjach udział biorą: Agnieszka Lichnerowicz, Agata Kowalska, Adam Ozga, Dionis Sturis, Paweł Kierzniewski, Paweł Sulik, Łukasz Wojtusik. Chcemy jednak, by nasze grono powiększało się o kolejnych miłośników słowa pisanego.",
-			"contact" : "poczytalni@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-poczytalni.xml"
-		},
-		"Między Słowami" : {
-			"host" : "Kamil Wróblewski",
-			"description" : "Blues funk, groove, trip-hop, bardziej skoczne rytmy... i nawet pop, czyli to, co można na co dzień usłyszeć między słowami w Radiu TOK FM. W sobotnie wieczory odwracamy proporcje.",
-			"contact" : "Kamil.Wroblewski@tok.fm"
-		},
-		"Człowiek 2.0" : {
-			"host" : "Jan Stradowski",
-			"description" : "Odkrycia naukowe wpływają na nasze życie, nowe wynalazki towarzyszą nam na każdym kroku. Zmieniamy świat, a świat zmienia nas. Czy na lepsze? Jan Stradowski, szef działu nauki \"Focusa\" zaprasza do studia specjalistów od nauki, technologii i trendów cywilizacyjnych, by dyskutować z nimi o tym, jak wygląda dziś nowa wersja Homo sapiens - Człowiek 2.0 - i dokąd zmierza?",
-			"contact" : "czlowiek2.0@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-czlowiek20.xml"
-		},
-		"Los Polandos czyli niepolski punkt widzenia" : {
-			"host" : "Paweł Sulik",
-			"description" : "Egzotyczny wymiar naszego kraju widziany oczami żyjących w Polsce obcokrajowców. Dzięki świeżemu spojrzeniu "z zewnątrz" mniejszości narodowe oraz emigranci pokazują nam naszą codzienność w zupełnie innych barwach. Będziemy zaskoczeni własnymi zwyczajami i poglądami, ale też pewnie czasami znajdziemy nić porozumienia z zupełnie egzotyczną kulturą.",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-los-polandos.xml"
-		},
-		"Program Telewizyjny" : {
-			"host" : "Wojciech Krzyżaniak",
-			"description" : "Telewizji nie powinno się oglądać. Oglądać można tylko wybrane z niej programy, odcinki, filmy. Nigdy wszystko na raz. Bo po co? W \"Programie Telewizyjnym\" mówimy co warto zobaczyć. Albo na co nie wolno tracić czasu w tygodniu. Zapraszamy gości, którzy telewizję tworzą, odpowiadają za to co w niej jest. I utrzymują, że wiedzą dlaczego. Zaprasza, radzi i odradza Wojtek Krzyżaniak. Miła atmosfera, zero napinki Jest dobrze.",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-program-telewizyjny.xml"
-		},
-		"Przy niedzieli o sporcie" : {
-			"host" : "Przemysław Iwańczyk",
-			"description" : "W audycji, którą przygotowują wspólnie redakcje Sport.pl i Radio TOK FM, co tydzień będzie można usłyszeć podsumowanie czterech najważniejszych wydarzeń sportowych mijającego tygodnia, a także informacje o imprezach rozgrywanych w niedzielę popołudniu Program prowadzi Przemysław Iwańczyk, dziennikarz Sport.pl, który będzie rozmawiał na antenie z zaproszonymi gośćmi - m.in. sportowcami, publicystami, politykami i innymi osobami związanymi ze sportem. W każdym wydaniu \"Przy niedzieli o sporcie\" prowadzący wraz z gośćmi będą także przyznawać medal ze złota i medal z kartofla dla sportowego bohatera i antybohatera tygodnia. Słuchacze Radia TOK FM będą mogli przykazywać swoje komentarze i propozycje do medali przez internet - na profilu stacji i Sport.pl na Facebooku oraz telefonicznie.",
-			"contact" : "sport@tok.fm",
-			"podcast" : "http://serwisy.gazeta.pl/pub/rss/podcast/tokfm-przy-niedzieli-o-sporcie.xml"
-		},
-		"Lepiej późno niż wcale" : {
-			"host" : {
-				"Katarzyna Szustow",
-				"Krzysztof Tomasik",
-				"Mariusz Kurc"
-			},
-			"description" : "\"Lepiej późno niż wcale\" to cotygodniowa audycja w Radiu TOK FM o związkach nieheteronormatywnych, czyli o codzienności gejów, lesbijek, biseksualistów/ek, transgenderystów, transseksualnych kobiet/mężczyzn, osób niezdefiniowanych płciowo/seksualnie. Prowadzący i ich goście rozmawiają o społecznych, kulturalnych i politycznych zagadnieniach dotyczących świata wyłamującego się codziennej heteronormie, czyli o związkach partnerskich, literaturze z wątkami les i gej, wychodzeniu z szafy, nieukrywaniu swoich partnerów, o eliminacji homofobii jaki o pożądaniu i namiętności pomiędzy osobami tej samej płci. Czekamy również na słuchaczy ze świata hetero, dla których seksualność nie jest tematem tabu.",
-			"contact" : {
-				"lepiej@tok.fm",
-				"Katarzyna.Szustow@tok.fm"
-			}
-			"podcast" : "http://serwisy.gazeta.pl/pub/rss/podcast/tokfm-lepiej-pozno-niz-wcale.xml"
-		},
-		"Sztuka Życia" : {
-			"host" : "Hanna Zielińska",
-			"description" : "\"Sztuka życia\" czyli weekendowe spotkanie ze szczęściarzami - amatorami. Ludźmi sukcesu: gwiazdami, intelektualistami, sportowcami, którzy odpowiadają na te same pytania o sztukę życia, które w mediach zadaje się psychologom, profesjonalistom. Swoją historię opowiedzieli nam już m.in. Jerzy Stuhr, Małgorzata Braunek, Agata Kulesza, Krzysztof Materna czy Dorota Warakomska.",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-sztuka-zycia.xml"
-		},
-		"WWW JAZZ" : {
-			"host" : "Ryszard Wojciul",
-			"description" : "\"WWW JAZZ\" w Radiu TOK FM to prawdziwa audycja jazzowa. Gospodarzem audycji jest Ryszard Wojciul - muzyk, kompozytor, muzykolog, dziennikarz i wydawca. Stałym gościem jest Dionizy Piątkowski - twórca i właściciel festiwalu Era Jazzu, autor wielu książek i publikacji na tematy jazzowe. W audycji prezentowane są jazzowe nowości płytowe oraz wybrane nagrania z różnych lat, różnych stylistyk, różnych wykonawców - różnych... ale zawsze jazzowych. Stałym punktem audycji jest kanon najlepszych płyt jazzowych - tworzony przez gospodarzy programu."
-		},
-		"Wierzę w zwierzę" : {
-			"host" : "Dorota Sumińska",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-wierze-w-zwierze.xml"
-		},
-		"Strefa szefa" : {
-			"host" : "Marzena Mazur",
-			"description" : "Audycja z szefami i dla szefów, choć nie tylko. Również dla tych, którzy uważają, że byliby lepszymi szefami od swoich przełożonych oraz dla tych, którzy przygotowują się do objęcia wyższego stanowiska. Do każdej audycji zapraszamy managerów wyższego lub średniego szczebla i dyskutujemy o praktyce zarządzania firmą, pionem, działem lub zespołem. Poznajemy zasady i obyczaje przełożonych, staramy się zrozumieć ich decyzje i poznać sekrety sukcesów.",
-			"contact" : "szef@tok.fm",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-strefa-szefa.xml"
-		},
-		"Weekendowy Poranek Radia TOK FM" : {
-			"host" : "Paweł Sulik",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-sobotni-poranek.xml"
-		},
-		"Niedziela Łasiczki" : {
-			"host" : "Cezary Łasiczka",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-niedziela-lasiczki.xml"
-		},
-		"Wywiad pogłębiony" : {
-			"host" : "Anna Wacławik-Orpik",
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-wywiad-poglebiony.xml"
-		}
-	}
+    "name": "TOK FM",
+    "stream": "http://mainstream.radioagora.pl/tuba10-1.mp3",
+    "rss": {
+        "Najważniejsze": "http://www.tokfm.pl/pub/rss/tokfmpl_glowne.xml",
+        "Polska": "http://www.tokfm.pl/pub/rss/tokfmpl_polska.xml",
+        "Świat": "http://www.tokfm.pl/pub/rss/tokfmpl_swiat.xml",
+        "Polityczne": "http://www.tokfm.pl/pub/rss/tokfmpl_polityka.xml",
+        "Biznesowe": "http://www.tokfm.pl/pub/rss/tokfmpl_biznes.xml",
+        "Kulturalne": "http://www.tokfm.pl/pub/rss/tokfmpl_kultura.xml",
+        "O mediach": "http://www.tokfm.pl/pub/rss/tokfmpl_media.xml",
+        "Rozrywka": "http://www.tokfm.pl/pub/rss/tokfmpl_rozrywka.xml",
+        "Sport": "http://www.tokfm.pl/pub/rss/tokfmpl_sport.xml"
+    },
+    "programming": {
+        "MON": {
+            "0": "Program nocny",
+            "300": "Pierwsze Śniadanie w TOKu",
+            "400": "Pierwszy Gospodarczy Program Radia TOK FM",
+            "420": "Poranek Radia TOK FM",
+            "540": "EKG",
+            "600": "OFF Czarek",
+            "760": "Raport Gospodarczy",
+            "775": "Na Apetyt... Adamczewski!",
+            "780": "Połączenie",
+            "880": "Jeszcze Więcej Sportu",
+            "900": "Godziny Szczytu — Polityka",
+            "960": "Godziny Szczytu - Gospodarka",
+            "1000": "Godziny Szczytu - Sport",
+            "1020": "Godziny Szczytu — Magazyn Reporterów",
+            "1060": "Godziny Szczytu — Kultura",
+            "1080": "Post Factum",
+            "1180": "Codzienny Magazyn Motoryzacyjny",
+            "1200": "Salon Radia TOK FM — Zrozumieć Świat",
+            "1260": "Wieczór Radia TOK FM — Lornetka",
+            "1320": "Wieczór Radia TOK FM — Bez Laski"
+        },
+        "TUE": {
+            "0": "Program nocny",
+            "300": "Pierwsze Śniadanie w TOKu",
+            "400": "Pierwszy Gospodarczy Program Radia TOK FM",
+            "420": "Poranek Radia TOK FM",
+            "540": "EKG",
+            "600": "OFF Czarek",
+            "760": "Raport Gospodarczy",
+            "775": "Na Apetyt... Adamczewski!",
+            "780": "Połączenie",
+            "880": "Muzyczne Sito",
+            "900": "Godziny Szczytu — Polityka",
+            "960": "Godziny Szczytu - Gospodarka",
+            "1000": "Godziny Szczytu - Sport",
+            "1020": "Godziny Szczytu — Magazyn Reporterów",
+            "1060": "Godziny Szczytu — Kultura",
+            "1080": "Post Factum",
+            "1180": "Codzienny Magazyn Motoryzacyjny",
+            "1200": "Salon Radia TOK FM — Goście Passenta",
+            "1260": "Wieczór Radia TOK FM — Tylko dla dojrzałych",
+            "1320": "Wieczór Radia TOK FM — Kwasem i Kłosem",
+            "1380": "Wieczór Radia TOK FM — Alternatywa"
+        },
+        "WEN": {
+            "0": "Program nocny",
+            "300": "Pierwsze Śniadanie w TOKu",
+            "400": "Pierwszy Gospodarczy Program Radia TOK FM",
+            "420": "Poranek Radia TOK FM",
+            "540": "EKG",
+            "600": "OFF Czarek",
+            "760": "Raport Gospodarczy",
+            "775": "Na Apetyt... Adamczewski!",
+            "780": "Połączenie",
+            "880": "Krakowskie Przedmieście",
+            "900": "Godziny Szczytu — Polityka",
+            "960": "Godziny Szczytu - Gospodarka",
+            "1000": "Godziny Szczytu - Sport",
+            "1020": "Godziny Szczytu — Magazyn Reporterów",
+            "1060": "Godziny Szczytu — Kultura",
+            "1080": "Post Factum",
+            "1180": "Codzienny Magazyn Motoryzacyjny",
+            "1200": "Salon Radia TOK FM — Szczerotok",
+            "1260": "Wieczór Radia TOK FM — Materializacja",
+            "1320": "Wieczór Radia TOK FM — Oburzeni"
+        },
+        "THU": {
+            "0": "Program nocny",
+            "300": "Pierwsze Śniadanie w TOKu",
+            "400": "Pierwszy Gospodarczy Program Radia TOK FM",
+            "420": "Poranek Radia TOK FM",
+            "540": "EKG",
+            "600": "OFF Czarek",
+            "760": "Raport Gospodarczy",
+            "775": "Na Apetyt... Adamczewski!",
+            "780": "Połączenie",
+            "880": "Andymateria",
+            "900": "Godziny Szczytu — Polityka",
+            "960": "Godziny Szczytu - Gospodarka",
+            "1000": "Godziny Szczytu - Sport",
+            "1020": "Godziny Szczytu — Magazyn Reporterów",
+            "1060": "Godziny Szczytu — Kultura",
+            "1080": "Post Factum",
+            "1180": "Codzienny Magazyn Motoryzacyjny",
+            "1200": "Salon Radia TOK FM — Teraz Solska",
+            "1260": "Wieczór Radia TOK FM — Radiowa Akademia Nauk",
+            "1320": "Wieczór Radia TOK FM — Biosfera",
+            "1380": "Wieczór Radia TOK FM — Klasyki dla grzeszników"
+        },
+        "FRI": {
+            "0": "Program nocny",
+            "300": "Pierwsze Śniadanie w TOKu",
+            "400": "Pierwszy Gospodarczy Program Radia TOK FM",
+            "420": "Poranek Radia TOK FM",
+            "540": "EKG",
+            "600": "OFF Czarek",
+            "760": "Raport Gospodarczy",
+            "775": "Na Apetyt... Adamczewski!",
+            "780": "Połączenie",
+            "880": "Lista Przebojów Radia TOK FM",
+            "900": "Godziny Szczytu — Polityka",
+            "960": "Godziny Szczytu - Gospodarka",
+            "1000": "Godziny Szczytu - Sport",
+            "1020": "Godziny Szczytu — Magazyn Reporterów",
+            "1060": "Godziny Szczytu — Kultura",
+            "1080": "Światopodgląd",
+            "1180": "Codzienny Magazyn Motoryzacyjny",
+            "1200": "Salon Radia TOK FM — PIWO",
+            "1260": "Wieczór Radia TOK FM — Horyzonty",
+            "1320": "Wieczór Radia TOK FM — Kobiecy Eter",
+            "1380": "Wieczór Radia TOK FM — Dorosłe Dzieci"
+        },
+        "SAT": {
+            "0": "Program nocny",
+            "420": "Poranny Przegląd Prasy",
+            "480": "Koło historii",
+            "540": "Skołowani",
+            "600": "Sobotni Poranek Radia TOK FM",
+            "720": "Program Telewizyjny",
+            "780": "Sztuka życia",
+            "840": "Magazyn Motoryzacyjny",
+            "900": "TOK, TOK na Wysokich Obcasach",
+            "960": "Weekend Radia TOK FM",
+            "1020": "Poczytalni",
+            "1080": "Zielono mi",
+            "1140": "Człowiek 2.0",
+            "1260": "PTOK — PYTA.PL w Radiu TOK FM",
+            "1320": "Między Słowami",
+            "1380": "WWW Jazz"
+        },
+        "SUN": {
+            "0": "Program nocny",
+            "420": "Poranny Przegląd Prasy Regionalnej",
+            "480": "Niedzielny Poranek Radia TOK FM",
+            "540": "Wierzę w zwierzę",
+            "600": "Niedzielny Poranek Radia TOK FM",
+            "720": "Światowidz",
+            "780": "Transformacja",
+            "840": "Strefa Szefa",
+            "900": "Dość Przemocy",
+            "960": "Na kłopoty Kolińska/TOK Myślenia",
+            "1020": "Przy niedzieli o sporcie",
+            "1140": "Weekend Radia TOK FM",
+            "1200": "Wywiad Pogłębiony",
+            "1260": "TOK z Gwiazdą/Więcej niż kino",
+            "1320": "U TOKtora",
+            "1380": "Lepiej późno niż wcale"
+        }
+    },
+    "programs": {
+        "Poranek Radia TOK FM": {
+            "host": {
+                "MON": "Dominika Wielowieyska",
+                "TUE": "Jan Wróbel",
+                "WEN": "Tomasz Sekielski",
+                "THU": "Janina Paradowska",
+                "FRI": "Jacek Żakowski"
+            },
+            "description": "\"Poranek Radia TOK FM\" to codzienna audycja publicystyczna, której gospodarzami są znani dziennikarze. Tematy poruszane w Poranku to najważniejsze aktualne wydarzenia polityczne, społeczne, gospodarcze, kulturalne z kraju i ze świata. Gospodarze programu rozmawiają o nich z politykami, ekspertami, publicystami ze wszystkich najważniejszych mediów w Polsce. Poranek jest pluralistycznym i wielostronnym przeglądem opcji, opinii, poglądów na każdy ważny i interesujący temat. Żywym i szybko reagującym forum wymiany myśli, komentarzy i interpretacji otaczającej nas rzeczywistości.",
+            "contact": "poranek@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-poranek-radia-tokfm.xml"
+        },
+        "Salon Radia TOK FM": {
+            "host": {
+                "MON": "Wiktor Osiatyński",
+                "TUE": "Daniel Passent",
+                "WEN": "Tomasz Raczek",
+                "THU": "Joanna Solska",
+                "FRI": "Mikołaj Lizut"
+            },
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-salon.xml"
+        },
+        "EKG": {
+            "host": "Tadeusz Mosz",
+            "description": "Audycja EKG adresowana jest do wszystkich których pasjonuje gospodarka i tych, którzy gospodarkę chcą zrozumieć. W naszym programie obnażamy absurdy codziennego życia - absurdy kosztowne dla nas wszystkich. Chwalimy to co godne pochwały. Mówimy o inwestycjach osobistych i wielkich rządowych planach. Nie brakuje wieści z giełdy, rynku walutowego i najciekawszych publikacji prasowych. Słowem wszystko co ważne dla gospodarki. Program składa się trzech części. W każdym wydaniu, sprawdzamy czy nowy dzień zmienił naszą sytuację materialną, słowem \"czy jesteśmy bogatsi czy biedniejsi\". Audycję kończą \"zdziwienia\" naszych gości. A gości mamy wielu. To wybitni eksperci ekonomiczni, profesorowie, ministrowie, prezesi, przedsiębiorcy.",
+            "contact": "ekg@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/radiotokfm-ekg.xml"
+        },
+        "OFF Czarek": {
+            "host": "Cezary Łasiczka",
+            "contact": "czarek@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-off-czarek.xml"
+        },
+        "Połączenie": {
+            "host": "Jakub Janiszewski",
+            "contact": "polaczenie@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-polaczenie.xml"
+        },
+        "Pierwsze Śniadanie w TOKu": {
+            "host": "Piotr Maślak",
+            "description": "\"Pierwsze Śniadanie w TOKu\" - Gospodarz programu Piotr Maślak zaprasza na wspólną kawę i śniadanie razem z Radiem TOK FM. To codzienna informacyjno-publicystyczna audycja rozpoczynająca napięty radiowy grafik. W programie poruszane są tematy: polityczne, gospodarcze, jednak w luźniejszej formule. W \"Pierwszym Śniadaniu w TOKu\" jest również miejsce na szeroko pojętą kulturę czy problemy społeczne. Niektórym wydaje się, że to zabójcza godzina, mimo to już od godziny 6.00 bieżące wydarzenia komentują w programie liczni goście. Na pierwsze śniadanie z redakcją TOK FM skusił się wielokrotnie prof. Zbigniew Lewicki, prof. Janusz Czapiński, dr Paweł Laidler, Jacek Rakowiecki, Robert Leszczyński, Bogumiła Wander, Marek Zając czy Zdzisław Pietrasik. Usatysfakcjonowani powinni być też zwolennicy przeglądania porannej prasy przy kawie. Po 5.20 z przymrużeniem oka Piotr Maślak komentuje treść tabloidów, a po 6.00 jest miejsce również na poważną prasę.",
+            "contact": "sniadanie@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-pierwsze-sniadanie.xml"
+        },
+        "Pierwszy Gospodarczy Program Radia TOK FM": {
+            "host": "Aleksandra Diadykiewicz"
+        },
+        "Andymateria": {
+            "host": "Anna Wacławik-Orpik;Anda Rottenberg",
+            "description": "Krótki, intensywny program o sztuce. Autorki: Anda Rottenberg - historyk, krytyk sztuki, kuratorka wielu głośnych wystaw w Polsce i za granicami kraju, była szefowa Galerii Narodowej \"Zachęta\". Autorka licznych publikacji o sztuce. W programie \"Andymateria\" w roli eksperta, który patrząc na dzieło sztuki rozumie co widzi i potrafi o tym opowiadać. Anna Wacławik-Orpik - archeolog, dziennikarka Radia TOK FM. Amatorka sztuki, czyli osoba, która sztukę lubi i próbuje zrozumieć. W \"Andymaterii\" prowokuje Andę Rottenberg do opowiadania o artystach, ich dziełach i zjawiskach, które wzbogacają świat widzialny. Razem zapraszają na antenę Radia TOK FM, do największej galerii w Polsce",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-andymateria.xml"
+        },
+        "Wieczór Radia TOK FM": {
+            "host": {
+                "MON": "Tomasz Kwaśniewski",
+                "TUE": "Tomasz Kwaśniewski",
+                "WEN": "Tomasz Kwaśniewski",
+                "THU": "Karolina Głowacka",
+                "FRI": "Hanna Zielińska"
+            },
+            "contact": "wieczor@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-wieczor.xml"
+        },
+        "Post Factum": {
+            "host": {
+                "MON": "Agata Kowalska",
+                "TUE": "Agata Kowalska",
+                "WEN": "Paweł Sulik",
+                "THU": "Paweł Sulik"
+            },
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-post-factum.xml"
+        },
+        "PTOK": {
+            "podcast": "http://www.tok.fm//pub/rss/podcast/tokfm-ptok.xml"
+        },
+        "Godziny Szczytu": {
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-godzina-szczytu.xml"
+        },
+        "Codzienny Magazyn Motoryzacyjny": {
+            "host": "Jacek Balkan;Sławek Paruszewski",
+            "description": "Zawsze rzetelnie, ale z poczuciem humoru i szczyptą złośliwości. Ponoć to najlepszy polski program motoryzacyjny, ale... nie nam oceniać.",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-cmm.xml"
+        },
+        "Muzyczne Sito TOK FM": {
+            "host": "Paweł Sito",
+            "description": "Paweł Sito w swoim programie autorskim odpowie na wszystkie pytania dotyczące przemysłu muzycznego. Nowości muzyczne warte posłuchania, zapowiedzi, branżowe newsy i przemysł muzyczny od podszewki - czyli wszystko to, co warto wiedzieć o muzyce, ale nie było dotąd kogo zapytać."
+        },
+        "Jeszcze więcej sportu": {
+            "host": "Kacper Merk",
+            "description": "Magazyn sportowy Radia TOK FM, w którym komentujemy najważniejsze wydarzenia sportowych aren. Naszymi gośćmi są zawodnicy, trenerzy, działacze i publicyści związani z najpopularniejszymi dyscyplinami. Mówimy o tym co było, jest i będzie najważniejsze. Nie umknie nam żaden sukces Polskich sportowców!",
+            "contact": "sport@tok.fm",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-jeszcze-wiecej-sportu.xml"
+        },
+        "Raport Gospodarczy": {
+            "host": {
+                "MON": "Maciej Głogowski",
+                "TUE": "Maciej Głogowski",
+                "WEN": "Maciej Głogowski",
+                "THU": "Maciej Głogowski",
+                "FRI": "Aleksandra Dziadykiewicz"
+            },
+            "description": "Kursy walut, aukcje obligacji, wskaźniki giełdowe, wycena spółek, budżet, bezrobocie, reforma emerytur, kredyty hipoteczne, strefa euro, lokaty... To tematy, które pojawiają się w Raportach Gospodarczych. Rozmawiamy z ekspertami i wyjaśniamy mechanizmy i wydarzenia z polskiej i światowej gospodarki."
+        },
+        "Na apetyt... Adamczewski!": {
+            "host": "Piotr Adamczewski",
+            "description": "Bez apetytu życie traci blask!"
+        },
+        "Światopodgląd": {
+            "host": "Agnieszka Lichnerowicz",
+            "description": "\"Światopodgląd\" to po pierwsze przegląd i podsumowanie najważniejszych wydarzeń na świecie. Po drugie, debatujemy na temat najważniejszych książek, najgorętszych idei, czy najciekawszych zjawisk dotyczących demokracji, polityki społecznej, gospodarki czy pomocy rozwojowej. Po trzecie, sprawdzamy jak z dyskutowanymi w Polsce problemami poradziły sobie inne kraje, a po czwarte jak społeczno - ekonomiczna sytuację komentuje film, czy literatura.",
+            "podcast": "http://www.tok.fm/pub/rss/podcast/tokfm-swiatopodglad.xml"
+        },
+        "Lista Przebojów TOK FM": {
+            "host": "Bartosz Dąbrowski",
+            "description": "Notowania listy to wypowiedzi gości lub prowadzących Radia TOK FM zwracających uwagę słuchaczy w ostatnim tygodniu - zabawne, bulwersujące, dziwne, kontrowersyjne lub wyjątkowo ważne. Wszystkie wypowiedzi nominowane do Listy Przebojów Radia TOK FM są dostępne do odsłuchania na stronie internetowej tokfm.pl/lista. Co tydzień na antenie prezentowany jest wynik głosowania słuchaczy."
+        },
+        "Skołowani": {
+            "host": "Agata Kowalska;Krzysztof Woźniak",
+            "description": "W programie spróbujemy zażegnać (lub chociaż wyhamować) odwieczny konflikt pomiędzy rowerzystami a kierowcami. Specjalistów zapytamy o pomysły na poprawienie bezpieczeństwa rowerzystów a tym samym bezpieczeństwa na drodze. Osoby znane i lubiane poprosimy o wyjawienie, jak im się jeździ na rowerze po mieście. Sprawdzimy również jak wygląda sytuacja rowerzystów w innych krajach.",
+            "contact": "skolowani@tok.fm",
+            "podcast": "http://serwisy.gazeta.pl/pub/rss/podcast/tokfm-skolowani.xml"
+        },
+        "Poczytalni": {
+            "host": "Patrycja Wanat;Agnieszka Lichnerowicz;Agata Kowalska;Paweł Kierzniewski;Dionis Sturis;Paweł Sulik;Łukasz Wojtusik.",
+            "description": "\"Poczytalni\"zbierająsięrazwtygodniu,byprzykawielubherbacierozmawiaćoksiążkach.Donaszegoklubunależądziennikarze,pracownicyiwspółpracownicy.Mamynadzieję,żenaszezaproszenieprzyjmąteżsłuchacze.Nierobimykrytycznejanalizydzieła,niezastanawiamysięnadhistorycznymiodniesieniamiikontekstemliterackim.Jesteśmyzwykłymiczytelnikamiichcemyteżzachęcićnaszychsłuchaczy,byczytalirazemznamiidzielilisięswoimiwrażeniamiiprzemyśleniami.PomysłodawcąprogramujestPatrycjaWanat.",
+            "contact": "poczytalni@tok.fm",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-poczytalni.xml"
+        },
+        "MiędzySłowami": {
+            "host": "KamilWróblewski",
+            "description": "Bluesfunk, groove, trip-hop,bardziejskocznerytmy...inawetpop,czylito,comożnanacodzieńusłyszećmiędzysłowamiwRadiuTOKFM.Wsobotniewieczoryodwracamyproporcje.",
+            "contact": "Kamil.Wroblewski@tok.fm"
+        },
+        "Człowiek2.0": {
+            "host": "JanStradowski",
+            "description": "Odkrycianaukowewpływająnanaszeżycie,nowewynalazkitowarzysząnamnakażdymkroku.Zmieniamyświat, aświatzmienianas.Czynalepsze?JanStradowski, szefdziałunauki\"Focusa\"zapraszadostudiaspecjalistówodnauki,technologiiitrendówcywilizacyjnych,  bydyskutowaćznimiotym, jakwyglądadziśnowawersjaHomosapiens-Człowiek2.0-idokądzmierza?",
+            "contact": "czlowiek2.0@tok.fm",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-czlowiek20.xml"
+        },
+        "LosPolandosczyliniepolskipunktwidzenia": {
+            "host": "PawełSulik",
+            "description": "EgzotycznywymiarnaszegokrajuwidzianyoczamiżyjącychwPolsceobcokrajowców.Dziękiświeżemuspojrzeniu\"zzewnątrz\"mniejszościnarodoweorazemigrancipokazująnamnaszącodziennośćwzupełnieinnychbarwach.Będziemyzaskoczeniwłasnymizwyczajamiipoglądami,aleteżpewnieczasamiznajdziemynićporozumieniazzupełnieegzotycznąkulturą.",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-los-polandos.xml"
+        },
+        "ProgramTelewizyjny": {
+            "host": "WojciechKrzyżaniak",
+            "description": "Telewizjiniepowinnosięoglądać.Oglądaćmożnatylkowybranezniejprogramy,odcinki,filmy.Nigdywszystkonaraz.Bopoco?W\"ProgramieTelewizyjnym\"mówimycowartozobaczyć.Albonaconiewolnotracićczasuwtygodniu.Zapraszamygości,którzytelewizjętworzą, odpowiadajązatocowniejjest.Iutrzymują, żewiedządlaczego.Zaprasza, radziiodradzaWojtekKrzyżaniak.Miłaatmosfera, zeronapinkiJestdobrze.",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-program-telewizyjny.xml"
+        },
+        "Przyniedzieliosporcie": {
+            "host": "PrzemysławIwańczyk",
+            "contact": "sport@tok.fm",
+            "podcast": "http: //serwisy.gazeta.pl/pub/rss/podcast/tokfm-przy-niedzieli-o-sporcie.xml"
+        },
+        "Lepiejpóźnoniżwcale": {
+            "host": "KatarzynaSzustow;KrzysztofTomasik;MariuszKurc",
+            "contact": "lepiej@tok.fm;Katarzyna.Szustow@tok.fm",
+            "podcast": "http: //serwisy.gazeta.pl/pub/rss/podcast/tokfm-lepiej-pozno-niz-wcale.xml"
+        },
+        "SztukaŻycia": {
+            "host": "HannaZielińska",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-sztuka-zycia.xml"
+        },
+        "WWWJAZZ": {
+            "host": "RyszardWojciul"
+        },
+        "Wierzęwzwierzę": {
+            "host": "DorotaSumińska",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-wierze-w-zwierze.xml"
+        },
+        "Strefaszefa": {
+            "host": "MarzenaMazur",
+            "contact": "szef@tok.fm",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-strefa-szefa.xml"
+        },
+        "WeekendowyPoranekRadiaTOKFM": {
+            "host": "PawełSulik",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-sobotni-poranek.xml"
+        },
+        "NiedzielaŁasiczki": {
+            "host": "CezaryŁasiczka",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-niedziela-lasiczki.xml"
+        },
+        "Wywiadpogłębiony": {
+            "host": "AnnaWacławik-Orpik",
+            "podcast": "http: //www.tok.fm/pub/rss/podcast/tokfm-wywiad-poglebiony.xml"
+        }
+    }
 }
