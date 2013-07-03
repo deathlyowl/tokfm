@@ -7,6 +7,7 @@
 //
 
 #import "DOProgrammingViewController.h"
+#import "DOProgramViewController.h"
 
 @implementation DOProgrammingViewController
 
@@ -41,9 +42,7 @@
 - (IBAction)valueChanged:(id)sender {
     day = [self dayWithIndex:( 7 + _weekdayControl.selectedSegmentIndex ) % 7];
     keys = [[[programming objectForKey:day] allKeys] sortedArrayUsingComparator:^NSComparisonResult(NSString *a, NSString *b) {return a.intValue > b.intValue;}];
-    [self.tableView reloadData];
-    
-    NSLog(@"We have %@", day);
+    [self.tableView reloadData];    
 }
 
 - (NSString *) dayWithIndex:(int) index {
@@ -59,6 +58,12 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.tableView deselectRowAtIndexPath:self.tableView.indexPathForSelectedRow
+                                  animated:YES];
+}
+
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -69,6 +74,31 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSDictionary *)selectedProgram{
+    return [[[RadioDataModel sharedObject] programs] objectForKey:[self selectedTitle]];
+}
+
+- (NSString *) selectedTitle{
+    NSString *key = [keys objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+
+    return [[[[programming objectForKey:day] objectForKey:key] componentsSeparatedByString:@" — "] firstObject];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    DOProgramViewController *programViewController = (DOProgramViewController *)segue.destinationViewController;
+    [programViewController setProgram:[self selectedProgram]];
+    [programViewController setTitle:[self selectedTitle]];
+}
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    if ([self selectedProgram]) return YES;
+    else {
+        [self.tableView deselectRowAtIndexPath:self.tableView.indexPathForSelectedRow
+                                      animated:YES];
+        return NO;
+    }
 }
 
 #pragma mark - Table view data source
@@ -93,8 +123,9 @@
     NSString *key = [keys objectAtIndex:indexPath.row];
     
     NSString *hour = [NSString stringWithFormat:@"%i:%02i", key.intValue / 60, key.intValue % 60];
+    NSArray *componnents = [[[programming objectForKey:day] objectForKey:key] componentsSeparatedByString:@" — "];
     [cell.textLabel setText:hour];
-    [cell.detailTextLabel setText:[[programming objectForKey:day] objectForKey:key]];
+    [cell.detailTextLabel setText:componnents.lastObject];
     // Configure the cell...
     
     return cell;

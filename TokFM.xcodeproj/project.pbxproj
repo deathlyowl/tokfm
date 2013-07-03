@@ -64,6 +64,7 @@
 		FA02F5A91784915900AEBD51 /* z13965552D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5801784915900AEBD51 /* z13965552D.jpg */; };
 		FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5811784915900AEBD51 /* z13966001D.jpg */; };
 		FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5AC1784918200AEBD51 /* tokfm.json */; };
+		FA21A28D1784C21100532CD9 /* DOProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21A28C1784C21100532CD9 /* DOProgramViewController.m */; };
 		FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */; };
 		FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA681D61784A2BF008AD6EB /* RadioDataModel.m */; };
 		FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC5D161784A62500ADACC7 /* DORadioViewController.m */; };
@@ -143,6 +144,8 @@
 		FA02F5801784915900AEBD51 /* z13965552D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13965552D.jpg; sourceTree = "<group>"; };
 		FA02F5811784915900AEBD51 /* z13966001D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13966001D.jpg; sourceTree = "<group>"; };
 		FA02F5AC1784918200AEBD51 /* tokfm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokfm.json; sourceTree = "<group>"; };
+		FA21A28B1784C21100532CD9 /* DOProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOProgramViewController.h; sourceTree = "<group>"; };
+		FA21A28C1784C21100532CD9 /* DOProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOProgramViewController.m; sourceTree = "<group>"; };
 		FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOProgrammingViewController.h; sourceTree = "<group>"; };
 		FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgrammingViewController.m; sourceTree = "<group>"; };
 		FAA681D51784A2BF008AD6EB /* RadioDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioDataModel.h; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				FAAC5D161784A62500ADACC7 /* DORadioViewController.m */,
 				FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */,
 				FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */,
+				FA21A28B1784C21100532CD9 /* DOProgramViewController.h */,
+				FA21A28C1784C21100532CD9 /* DOProgramViewController.m */,
 				FA02F5361784914300AEBD51 /* DOFirstViewController.h */,
 				FA02F5371784914300AEBD51 /* DOFirstViewController.m */,
 				FA02F5391784914300AEBD51 /* DOSecondViewController.h */,
@@ -452,6 +457,7 @@
 				FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */,
 				FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */,
 				FA02F5381784914300AEBD51 /* DOFirstViewController.m in Sources */,
+				FA21A28D1784C21100532CD9 /* DOProgramViewController.m in Sources */,
 				FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

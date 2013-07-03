@@ -96,11 +96,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.99215692280000001" green="0.98823535439999999" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="9tR-0I-Oy0" detailTextLabel="pKP-O6-Rnh" style="IBUITableViewCellStyleValue1" id="vri-Bf-oA9">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="9tR-0I-Oy0" detailTextLabel="pKP-O6-Rnh" style="IBUITableViewCellStyleValue1" id="vri-Bf-oA9">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tR-0I-Oy0">
@@ -111,7 +111,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Subtitle" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKP-O6-Rnh">
-                                            <rect key="frame" x="250" y="11" width="55" height="21"/>
+                                            <rect key="frame" x="230" y="11" width="55" height="21"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.50196078431372548" colorSpace="calibratedRGB"/>
@@ -121,6 +121,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="tVv-fD-WLy" kind="push" id="nzW-XJ-cOM"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -131,6 +134,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="STz-IC-u9w">
                         <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="qlf-6A-FqR"/>
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="HS8-So-mkf">
                             <rect key="frame" x="19" y="8" width="283" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -156,6 +160,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfh-bH-gwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1591" y="-684"/>
+        </scene>
+        <!--Program View Controller-->
+        <scene sceneID="2bp-fd-KOb">
+            <objects>
+                <viewController id="tVv-fD-WLy" customClass="DOProgramViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SJq-Ey-4N6">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="hYj-qK-wne"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpr-bG-hd4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2129" y="-684"/>
         </scene>
         <!--Table View Controller - Root View Controller-->
         <scene sceneID="Ptg-yU-IQ2">
@@ -272,18 +292,6 @@
         <image name="artwork" width="1057.389892578125" height="1056.639892578125"/>
         <image name="tabbar_bg" width="640" height="88"/>
     </resources>
-    <classes>
-        <class className="DOProgrammingViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DOProgrammingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="valueChanged:"/>
-                <relationship kind="outlet" name="weekdayControl" candidateClass="UISegmentedControl"/>
-            </relationships>
-        </class>
-        <class className="DORadioViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DORadioViewController.h"/>
-        </class>
-    </classes>
     <color key="tintColor" red="0.15686275064945221" green="0.27843138575553894" blue="0.63529413938522339" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

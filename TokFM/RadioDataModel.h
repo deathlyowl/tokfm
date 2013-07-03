@@ -12,6 +12,7 @@
 
 @property (nonatomic, retain) NSURL *streamURL;
 @property (nonatomic, retain) NSDictionary *programming;
+@property (nonatomic, retain) NSDictionary *programs;
 
 + (RadioDataModel *) sharedObject;
 
