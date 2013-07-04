@@ -12,5 +12,7 @@
 
 @property (nonatomic, retain) NSDictionary *program;
 @property (nonatomic, retain) NSString *title;
+@property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

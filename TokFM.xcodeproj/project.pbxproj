@@ -65,9 +65,11 @@
 		FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5811784915900AEBD51 /* z13966001D.jpg */; };
 		FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5AC1784918200AEBD51 /* tokfm.json */; };
 		FA21A28D1784C21100532CD9 /* DOProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21A28C1784C21100532CD9 /* DOProgramViewController.m */; };
+		FA4519DA1784DE3A009F1667 /* tadeuszmosz@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4519D91784DE3A009F1667 /* tadeuszmosz@2x.jpg */; };
 		FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */; };
 		FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA681D61784A2BF008AD6EB /* RadioDataModel.m */; };
 		FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC5D161784A62500ADACC7 /* DORadioViewController.m */; };
+		FAF3B0361784E1290038C518 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3B0351784E1290038C518 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,10 +150,12 @@
 		FA21A28C1784C21100532CD9 /* DOProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOProgramViewController.m; sourceTree = "<group>"; };
 		FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOProgrammingViewController.h; sourceTree = "<group>"; };
 		FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgrammingViewController.m; sourceTree = "<group>"; };
+		FA4519D91784DE3A009F1667 /* tadeuszmosz@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tadeuszmosz@2x.jpg"; sourceTree = "<group>"; };
 		FAA681D51784A2BF008AD6EB /* RadioDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioDataModel.h; sourceTree = "<group>"; };
 		FAA681D61784A2BF008AD6EB /* RadioDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioDataModel.m; sourceTree = "<group>"; };
 		FAAC5D151784A62500ADACC7 /* DORadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DORadioViewController.h; sourceTree = "<group>"; };
 		FAAC5D161784A62500ADACC7 /* DORadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DORadioViewController.m; sourceTree = "<group>"; };
+		FAF3B0351784E1290038C518 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF3B0361784E1290038C518 /* QuartzCore.framework in Frameworks */,
 				FA02F5241784914300AEBD51 /* CoreGraphics.framework in Frameworks */,
 				FA02F5261784914300AEBD51 /* UIKit.framework in Frameworks */,
 				FA02F5221784914300AEBD51 /* Foundation.framework in Frameworks */,
@@ -200,6 +205,7 @@
 		FA02F5201784914300AEBD51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAF3B0351784E1290038C518 /* QuartzCore.framework */,
 				FA02F5211784914300AEBD51 /* Foundation.framework */,
 				FA02F5231784914300AEBD51 /* CoreGraphics.framework */,
 				FA02F5251784914300AEBD51 /* UIKit.framework */,
@@ -227,6 +233,7 @@
 				FA02F5391784914300AEBD51 /* DOSecondViewController.h */,
 				FA02F53A1784914300AEBD51 /* DOSecondViewController.m */,
 				FA02F53C1784914300AEBD51 /* Images.xcassets */,
+				FA4519DB1784DE43009F1667 /* People */,
 				FA02F5AB1784917400AEBD51 /* Covers */,
 				FA02F5281784914300AEBD51 /* Supporting Files */,
 			);
@@ -309,6 +316,14 @@
 				FA02F5811784915900AEBD51 /* z13966001D.jpg */,
 			);
 			name = Covers;
+			sourceTree = "<group>";
+		};
+		FA4519DB1784DE43009F1667 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				FA4519D91784DE3A009F1667 /* tadeuszmosz@2x.jpg */,
+			);
+			name = People;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +421,7 @@
 				FA02F59A1784915900AEBD51 /* z13394988D.jpg in Resources */,
 				FA02F5A51784915900AEBD51 /* z13406087D.jpg in Resources */,
 				FA02F5A81784915900AEBD51 /* z13784118D.jpg in Resources */,
+				FA4519DA1784DE3A009F1667 /* tadeuszmosz@2x.jpg in Resources */,
 				FA02F59C1784915900AEBD51 /* z13394990D.jpg in Resources */,
 				FA02F5891784915900AEBD51 /* z13394962D.jpg in Resources */,
 				FA02F52C1784914300AEBD51 /* InfoPlist.strings in Resources */,

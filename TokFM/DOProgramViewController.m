@@ -7,6 +7,7 @@
 //
 
 #import "DOProgramViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation DOProgramViewController
 @synthesize program, title;
@@ -22,8 +23,10 @@
 
 - (void)viewDidLoad
 {
+    [_imageView.layer setCornerRadius:32];
     [super viewDidLoad];
     [self.navigationItem setTitle:title];
+    [self.descriptionTextView setText:[program objectForKey:@"description"]];
     
 	// Do any additional setup after loading the view.
 }
