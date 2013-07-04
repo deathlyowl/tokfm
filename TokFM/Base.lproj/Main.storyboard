@@ -17,71 +17,90 @@
                     </tabBar>
                     <connections>
                         <segue destination="dMy-Ho-KdN" kind="relationship" relationship="viewControllers" id="GAF-1V-Eis"/>
-                        <segue destination="ZDE-8O-ZEf" kind="relationship" relationship="viewControllers" id="MVo-xr-uLh"/>
-                        <segue destination="sOb-TT-9Rz" kind="relationship" relationship="viewControllers" id="JUE-5A-aWd"/>
+                        <segue destination="sOb-TT-9Rz" kind="relationship" relationship="viewControllers" id="pIj-9Z-Tz0"/>
+                        <segue destination="ZDE-8O-ZEf" kind="relationship" relationship="viewControllers" id="nVh-MA-zuI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-256" y="108"/>
         </scene>
-        <!--Radio View Controller - Radio-->
+        <!--Radio View Controller - Radio TOK FM-->
         <scene sceneID="TOo-Ry-4dg">
             <objects>
                 <tableViewController id="pFP-4f-CrD" customClass="DORadioViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1oV-89-uxN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="9Nh-Km-Ejg">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="artwork" translatesAutoresizingMaskIntoConstraints="NO" id="fIY-LF-ZPt">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                </imageView>
-                            </subviews>
-                            <color key="backgroundColor" red="0.99215692280000001" green="0.98823535439999999" blue="0.76862752440000004" alpha="1" colorSpace="deviceRGB"/>
-                        </view>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Programming" textLabel="QtB-8P-rpj" detailTextLabel="cfr-W1-Lky" style="IBUITableViewCellStyleValue1" id="17Y-E9-xhZ">
-                                <rect key="frame" x="0.0" y="342" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Now" textLabel="QtB-8P-rpj" detailTextLabel="cfr-W1-Lky" style="IBUITableViewCellStyleSubtitle" id="17Y-E9-xhZ">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Ramówka" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QtB-8P-rpj">
-                                            <rect key="frame" x="15" y="11" width="74" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Wieczór Radia Tok FM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QtB-8P-rpj">
+                                            <rect key="frame" x="15" y="5" width="174" height="22"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Czwartek" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfr-W1-Lky">
-                                            <rect key="frame" x="215" y="11" width="70" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Jeszcze przez 20 minut" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfr-W1-Lky">
+                                            <rect key="frame" x="15" y="27" width="105" height="12"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.50196078431372548" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="2Xp-sB-mfH" kind="push" id="Ibs-lu-wpg"/>
-                                </connections>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="ylg-6K-AiV" detailTextLabel="wQe-td-2HF" style="IBUITableViewCellStyleValue1" id="7cO-2g-PFi">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Ramówka" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ylg-6K-AiV">
+                                            <rect key="frame" x="15" y="11" width="74" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wQe-td-2HF">
+                                            <rect key="frame" x="244" y="11" width="41" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.50196078430000002" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Radio" id="aTg-vp-u9g">
+                    <navigationItem key="navigationItem" title="Radio TOK FM" id="aTg-vp-u9g">
                         <barButtonItem key="backBarButtonItem" title=" " id="NQ8-5E-xZT"/>
+                        <barButtonItem key="rightBarButtonItem" title="Teraz Grane" id="Oo7-gg-nny">
+                            <connections>
+                                <segue destination="o6Y-Qn-O9U" kind="push" identifier="Now" id="K6x-Nm-9n4"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <segue destination="2Xp-sB-mfH" kind="push" identifier="Programming" id="1Yn-J7-Mq1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xe6-Yh-Q21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,7 +178,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vfh-bH-gwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591" y="-684"/>
+            <point key="canvasLocation" x="1545" y="-684"/>
         </scene>
         <!--Program View Controller - EKG-->
         <scene sceneID="2bp-fd-KOb">
@@ -356,6 +375,59 @@
             </objects>
             <point key="canvasLocation" x="491" y="954"/>
         </scene>
+        <!--Now Playing View Controller - Strefa Szefa-->
+        <scene sceneID="txl-sC-Lfq">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="o6Y-Qn-O9U" customClass="DONowPlayingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pEW-Jd-CbL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="artwork" translatesAutoresizingMaskIntoConstraints="NO" id="Imz-jC-JBZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GSA-RR-eD6">
+                                <rect key="frame" x="18" y="368" width="284" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="minimumTrackTintColor" red="0.93333339689999995" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="maximumTrackTintColor" red="0.9960784912109375" green="0.98431378602981567" blue="0.80392163991928101" alpha="1" colorSpace="deviceRGB"/>
+                            </slider>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlY-Za-jtU">
+                                <rect key="frame" x="0.0" y="320" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="UcJ-ml-CFc"/>
+                                    <barButtonItem systemItem="rewind" id="YZG-ag-hC7"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="nFM-Lx-bpj"/>
+                                    <barButtonItem systemItem="play" id="32t-f2-L1R"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="qwP-Eb-3zJ"/>
+                                    <barButtonItem systemItem="fastForward" id="2aw-DM-rOI"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3cJ-87-0Gg"/>
+                                </items>
+                            </toolbar>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pXw-2c-Nsu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Strefa Szefa" id="gd0-PS-Koh">
+                        <barButtonItem key="rightBarButtonItem" image="59-info" id="QHD-uz-2RQ">
+                            <connections>
+                                <segue destination="tVv-fD-WLy" kind="push" id="1Ff-7l-2ja"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYV-YD-oEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2891" y="108"/>
+        </scene>
         <!--Navigation Controller - Radio-->
         <scene sceneID="0oX-O1-ads">
             <objects>
@@ -379,6 +451,7 @@
         <image name="12-eye" width="24" height="16"/>
         <image name="159-voicemail" width="32" height="14"/>
         <image name="18-envelope" width="24" height="16"/>
+        <image name="59-info" width="28" height="28"/>
         <image name="News" width="28" height="23"/>
         <image name="Podcasts" width="26" height="18"/>
         <image name="Radio" width="24" height="22"/>
@@ -386,6 +459,32 @@
         <image name="placeholder.jpg" width="165" height="165"/>
         <image name="tabbar_bg" width="640" height="88"/>
     </resources>
+    <classes>
+        <class className="DONowPlayingViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DONowPlayingViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="hostImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="DOProgramViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DOProgramViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="descriptionTextView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="hostLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="DOProgrammingViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DOProgrammingViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="valueChanged:"/>
+                <relationship kind="outlet" name="weekdayControl" candidateClass="UISegmentedControl"/>
+            </relationships>
+        </class>
+        <class className="DORadioViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DORadioViewController.h"/>
+        </class>
+    </classes>
     <color key="tintColor" red="0.15686275064945221" green="0.27843138575553894" blue="0.63529413938522339" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -393,6 +492,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="nzW-XJ-cOM"/>
         <segue reference="PVE-ON-HBn"/>
     </inferredMetricsTieBreakers>
 </document>

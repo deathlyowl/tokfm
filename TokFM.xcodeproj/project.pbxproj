@@ -64,51 +64,51 @@
 		FA02F5A91784915900AEBD51 /* z13965552D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5801784915900AEBD51 /* z13965552D.jpg */; };
 		FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5811784915900AEBD51 /* z13966001D.jpg */; };
 		FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */ = {isa = PBXBuildFile; fileRef = FA02F5AC1784918200AEBD51 /* tokfm.json */; };
-		FA15573A1785C07500EB2F8A /* ryszardwojciul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557391785C07500EB2F8A /* ryszardwojciul.jpg */; };
-		FA15573F1785C1C200EB2F8A /* kamilwróblewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA15573E1785C1C200EB2F8A /* kamilwróblewski.jpg */; };
-		FA1557421785C1EA00EB2F8A /* patrycjawanat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557401785C1EA00EB2F8A /* patrycjawanat.jpg */; };
-		FA1557431785C1EA00EB2F8A /* janstradowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557411785C1EA00EB2F8A /* janstradowski.jpg */; };
-		FA1557451785C24000EB2F8A /* bartoszdąbrowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557441785C24000EB2F8A /* bartoszdąbrowski.jpg */; };
-		FA1557471785C27700EB2F8A /* mikołajlizut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557461785C27700EB2F8A /* mikołajlizut.jpg */; };
-		FA1557491785C30E00EB2F8A /* tomaszraczek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1557481785C30E00EB2F8A /* tomaszraczek.jpg */; };
 		FA21A28D1784C21100532CD9 /* DOProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21A28C1784C21100532CD9 /* DOProgramViewController.m */; };
-		FA4519DA1784DE3A009F1667 /* tadeuszmosz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4519D91784DE3A009F1667 /* tadeuszmosz.jpg */; };
-		FA4CF7BF1785A5A700897AD5 /* placeholder@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4CF7BE1785A5A700897AD5 /* placeholder@2x.jpg */; };
-		FA5325881785AA63008F7E04 /* piotrmaślak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325871785AA63008F7E04 /* piotrmaślak.jpg */; };
-		FA53258A1785AAB4008F7E04 /* aleksandradziadykiewicz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325891785AAB4008F7E04 /* aleksandradziadykiewicz.jpg */; };
-		FA5325901785ABBE008F7E04 /* piotradamczewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53258B1785ABBE008F7E04 /* piotradamczewski.jpg */; };
-		FA5325911785ABBE008F7E04 /* maciejgłogowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53258C1785ABBE008F7E04 /* maciejgłogowski.jpg */; };
-		FA5325921785ABBE008F7E04 /* janinaparadowska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53258D1785ABBE008F7E04 /* janinaparadowska.jpg */; };
-		FA5325931785ABBE008F7E04 /* jakubjaniszewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53258E1785ABBE008F7E04 /* jakubjaniszewski.jpg */; };
-		FA5325941785ABBE008F7E04 /* cezaryłasiczka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53258F1785ABBE008F7E04 /* cezaryłasiczka.jpg */; };
-		FA5325A01785ACEE008F7E04 /* sławekparuszewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325951785ACEE008F7E04 /* sławekparuszewski.jpg */; };
-		FA5325A11785ACEE008F7E04 /* tomaszsekielski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325961785ACEE008F7E04 /* tomaszsekielski.jpg */; };
-		FA5325A21785ACEE008F7E04 /* wiktorosiatyński.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325971785ACEE008F7E04 /* wiktorosiatyński.jpg */; };
-		FA5325A31785ACEE008F7E04 /* wojciechkrzyżaniak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325981785ACEE008F7E04 /* wojciechkrzyżaniak.jpg */; };
-		FA5325A41785ACEE008F7E04 /* pawełsito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325991785ACEE008F7E04 /* pawełsito.jpg */; };
-		FA5325A51785ACEE008F7E04 /* karolinagłowacka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259A1785ACEE008F7E04 /* karolinagłowacka.jpg */; };
-		FA5325A61785ACEE008F7E04 /* kamilgapiński.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259B1785ACEE008F7E04 /* kamilgapiński.jpg */; };
-		FA5325A71785ACEE008F7E04 /* kacpermerk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259C1785ACEE008F7E04 /* kacpermerk.jpg */; };
-		FA5325A81785ACEE008F7E04 /* jacekbalkan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259D1785ACEE008F7E04 /* jacekbalkan.jpg */; };
-		FA5325A91785ACEE008F7E04 /* ewapodolska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259E1785ACEE008F7E04 /* ewapodolska.jpg */; };
-		FA5325AA1785ACEE008F7E04 /* agnieszkalichnerowicz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA53259F1785ACEE008F7E04 /* agnieszkalichnerowicz.jpg */; };
-		FA5325B01785AD25008F7E04 /* janwróbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325AB1785AD25008F7E04 /* janwróbel.jpg */; };
-		FA5325B11785AD25008F7E04 /* katarzynaszustow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325AC1785AD25008F7E04 /* katarzynaszustow.jpg */; };
-		FA5325B21785AD25008F7E04 /* dominikawielowieyska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325AD1785AD25008F7E04 /* dominikawielowieyska.jpg */; };
-		FA5325B31785AD25008F7E04 /* jacekżakowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325AE1785AD25008F7E04 /* jacekżakowski.jpg */; };
-		FA5325B41785AD25008F7E04 /* annawacławik-orpik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325AF1785AD25008F7E04 /* annawacławik-orpik.jpg */; };
-		FA5325B61785AED7008F7E04 /* pawełsulik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325B51785AED7008F7E04 /* pawełsulik.jpg */; };
-		FA5325B81785AF51008F7E04 /* joannasolska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325B71785AF51008F7E04 /* joannasolska.jpg */; };
-		FA5325BA1785AFED008F7E04 /* przemysławiwańczyk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325B91785AFED008F7E04 /* przemysławiwańczyk.jpg */; };
-		FA5325BC1785B06B008F7E04 /* marzenamazur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325BB1785B06B008F7E04 /* marzenamazur.jpg */; };
-		FA5325BE1785B092008F7E04 /* maciejjarząb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325BD1785B092008F7E04 /* maciejjarząb.jpg */; };
-		FA5325C01785B0CF008F7E04 /* dorotasumińska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325BF1785B0CE008F7E04 /* dorotasumińska.jpg */; };
-		FA5325C21785B10A008F7E04 /* agatakowalska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325C11785B10A008F7E04 /* agatakowalska.jpg */; };
-		FA5325C41785B1F4008F7E04 /* hannazielińska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5325C31785B1F4008F7E04 /* hannazielińska.jpg */; };
+		FA401D7A1785F1EE004EB2ED /* DONowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7085781785F1200049F9C7 /* DONowPlayingViewController.m */; };
+		FA70854D1785ED650049F9C7 /* agatakowalska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085231785ED650049F9C7 /* agatakowalska.jpg */; };
+		FA70854E1785ED650049F9C7 /* agnieszkalichnerowicz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085241785ED650049F9C7 /* agnieszkalichnerowicz.jpg */; };
+		FA70854F1785ED650049F9C7 /* aleksandradziadykiewicz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085251785ED650049F9C7 /* aleksandradziadykiewicz.jpg */; };
+		FA7085501785ED650049F9C7 /* annawacławik-orpik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085261785ED650049F9C7 /* annawacławik-orpik.jpg */; };
+		FA7085511785ED650049F9C7 /* bartoszdąbrowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085271785ED650049F9C7 /* bartoszdąbrowski.jpg */; };
+		FA7085521785ED650049F9C7 /* cezaryłasiczka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085281785ED650049F9C7 /* cezaryłasiczka.jpg */; };
+		FA7085531785ED650049F9C7 /* danielpassent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085291785ED650049F9C7 /* danielpassent.jpg */; };
+		FA7085541785ED650049F9C7 /* dominikawielowieyska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852A1785ED650049F9C7 /* dominikawielowieyska.jpg */; };
+		FA7085551785ED650049F9C7 /* dorotasumińska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852B1785ED650049F9C7 /* dorotasumińska.jpg */; };
+		FA7085561785ED650049F9C7 /* ewapodolska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852C1785ED650049F9C7 /* ewapodolska.jpg */; };
+		FA7085571785ED650049F9C7 /* hannazielińska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852D1785ED650049F9C7 /* hannazielińska.jpg */; };
+		FA7085581785ED650049F9C7 /* jacekbalkan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852E1785ED650049F9C7 /* jacekbalkan.jpg */; };
+		FA7085591785ED650049F9C7 /* jacekżakowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70852F1785ED650049F9C7 /* jacekżakowski.jpg */; };
+		FA70855A1785ED650049F9C7 /* jakubjaniszewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085301785ED650049F9C7 /* jakubjaniszewski.jpg */; };
+		FA70855B1785ED650049F9C7 /* janinaparadowska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085311785ED650049F9C7 /* janinaparadowska.jpg */; };
+		FA70855C1785ED650049F9C7 /* janstradowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085321785ED650049F9C7 /* janstradowski.jpg */; };
+		FA70855D1785ED650049F9C7 /* janwróbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085331785ED650049F9C7 /* janwróbel.jpg */; };
+		FA70855E1785ED650049F9C7 /* joannasolska.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085341785ED650049F9C7 /* joannasolska.jpg */; };
+		FA70855F1785ED650049F9C7 /* kacpermerk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085351785ED650049F9C7 /* kacpermerk.jpg */; };
+		FA7085601785ED650049F9C7 /* kamilgapiński.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085361785ED650049F9C7 /* kamilgapiński.jpg */; };
+		FA7085611785ED650049F9C7 /* kamilwróblewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085371785ED650049F9C7 /* kamilwróblewski.jpg */; };
+		FA7085621785ED650049F9C7 /* karolinagłowacka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085381785ED650049F9C7 /* karolinagłowacka.jpg */; };
+		FA7085631785ED650049F9C7 /* katarzynaszustow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085391785ED650049F9C7 /* katarzynaszustow.jpg */; };
+		FA7085641785ED650049F9C7 /* łukaszwojtusik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853A1785ED650049F9C7 /* łukaszwojtusik.jpg */; };
+		FA7085651785ED650049F9C7 /* maciejgłogowski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853B1785ED650049F9C7 /* maciejgłogowski.jpg */; };
+		FA7085661785ED650049F9C7 /* maciejjarząb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853C1785ED650049F9C7 /* maciejjarząb.jpg */; };
+		FA7085671785ED650049F9C7 /* marzenamazur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853D1785ED650049F9C7 /* marzenamazur.jpg */; };
+		FA7085681785ED650049F9C7 /* mikołajlizut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853E1785ED650049F9C7 /* mikołajlizut.jpg */; };
+		FA7085691785ED650049F9C7 /* patrycjawanat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70853F1785ED650049F9C7 /* patrycjawanat.jpg */; };
+		FA70856A1785ED650049F9C7 /* pawełsito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085401785ED650049F9C7 /* pawełsito.jpg */; };
+		FA70856B1785ED650049F9C7 /* pawełsulik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085411785ED650049F9C7 /* pawełsulik.jpg */; };
+		FA70856C1785ED650049F9C7 /* piotradamczewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085421785ED650049F9C7 /* piotradamczewski.jpg */; };
+		FA70856D1785ED650049F9C7 /* piotrmaślak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085431785ED650049F9C7 /* piotrmaślak.jpg */; };
+		FA70856E1785ED650049F9C7 /* przemysławiwańczyk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085441785ED650049F9C7 /* przemysławiwańczyk.jpg */; };
+		FA70856F1785ED650049F9C7 /* ryszardwojciul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085451785ED650049F9C7 /* ryszardwojciul.jpg */; };
+		FA7085701785ED650049F9C7 /* sławekparuszewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085461785ED650049F9C7 /* sławekparuszewski.jpg */; };
+		FA7085711785ED650049F9C7 /* tadeuszmosz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085471785ED650049F9C7 /* tadeuszmosz.jpg */; };
+		FA7085721785ED650049F9C7 /* tomaszkwaśniewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085481785ED650049F9C7 /* tomaszkwaśniewski.jpg */; };
+		FA7085731785ED650049F9C7 /* tomaszraczek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7085491785ED650049F9C7 /* tomaszraczek.jpg */; };
+		FA7085741785ED650049F9C7 /* tomaszsekielski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70854A1785ED650049F9C7 /* tomaszsekielski.jpg */; };
+		FA7085751785ED650049F9C7 /* wiktorosiatyński.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70854B1785ED650049F9C7 /* wiktorosiatyński.jpg */; };
+		FA7085761785ED650049F9C7 /* wojciechkrzyżaniak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA70854C1785ED650049F9C7 /* wojciechkrzyżaniak.jpg */; };
 		FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */; };
-		FAA138CF1785BF0700ADE41B /* tomaszkwaśniewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA138CC1785BF0700ADE41B /* tomaszkwaśniewski.jpg */; };
-		FAA138D01785BF0700ADE41B /* łukaszwojtusik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA138CD1785BF0700ADE41B /* łukaszwojtusik.jpg */; };
-		FAA138D11785BF0700ADE41B /* danielpassent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA138CE1785BF0700ADE41B /* danielpassent.jpg */; };
 		FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA681D61784A2BF008AD6EB /* RadioDataModel.m */; };
 		FAAC5D171784A62500ADACC7 /* DORadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAC5D161784A62500ADACC7 /* DORadioViewController.m */; };
 		FAF3B0361784E1290038C518 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3B0351784E1290038C518 /* QuartzCore.framework */; };
@@ -188,53 +188,54 @@
 		FA02F5801784915900AEBD51 /* z13965552D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13965552D.jpg; sourceTree = "<group>"; };
 		FA02F5811784915900AEBD51 /* z13966001D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = z13966001D.jpg; sourceTree = "<group>"; };
 		FA02F5AC1784918200AEBD51 /* tokfm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokfm.json; sourceTree = "<group>"; };
-		FA1557391785C07500EB2F8A /* ryszardwojciul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryszardwojciul.jpg; sourceTree = "<group>"; };
-		FA15573E1785C1C200EB2F8A /* kamilwróblewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kamilwróblewski.jpg"; sourceTree = "<group>"; };
-		FA1557401785C1EA00EB2F8A /* patrycjawanat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patrycjawanat.jpg; sourceTree = "<group>"; };
-		FA1557411785C1EA00EB2F8A /* janstradowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janstradowski.jpg; sourceTree = "<group>"; };
-		FA1557441785C24000EB2F8A /* bartoszdąbrowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bartoszdąbrowski.jpg"; sourceTree = "<group>"; };
-		FA1557461785C27700EB2F8A /* mikołajlizut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mikołajlizut.jpg"; sourceTree = "<group>"; };
-		FA1557481785C30E00EB2F8A /* tomaszraczek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomaszraczek.jpg; sourceTree = "<group>"; };
 		FA21A28B1784C21100532CD9 /* DOProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOProgramViewController.h; sourceTree = "<group>"; };
 		FA21A28C1784C21100532CD9 /* DOProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOProgramViewController.m; sourceTree = "<group>"; };
 		FA2A89A21784B32D00C772E4 /* DOProgrammingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DOProgrammingViewController.h; sourceTree = "<group>"; };
 		FA2A89A31784B32D00C772E4 /* DOProgrammingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOProgrammingViewController.m; sourceTree = "<group>"; };
-		FA4519D91784DE3A009F1667 /* tadeuszmosz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tadeuszmosz.jpg; sourceTree = "<group>"; };
-		FA4CF7BE1785A5A700897AD5 /* placeholder@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder@2x.jpg"; sourceTree = "<group>"; };
-		FA5325871785AA63008F7E04 /* piotrmaślak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "piotrmaślak.jpg"; sourceTree = "<group>"; };
-		FA5325891785AAB4008F7E04 /* aleksandradziadykiewicz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aleksandradziadykiewicz.jpg; sourceTree = "<group>"; };
-		FA53258B1785ABBE008F7E04 /* piotradamczewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piotradamczewski.jpg; sourceTree = "<group>"; };
-		FA53258C1785ABBE008F7E04 /* maciejgłogowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maciejgłogowski.jpg"; sourceTree = "<group>"; };
-		FA53258D1785ABBE008F7E04 /* janinaparadowska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janinaparadowska.jpg; sourceTree = "<group>"; };
-		FA53258E1785ABBE008F7E04 /* jakubjaniszewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakubjaniszewski.jpg; sourceTree = "<group>"; };
-		FA53258F1785ABBE008F7E04 /* cezaryłasiczka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cezaryłasiczka.jpg"; sourceTree = "<group>"; };
-		FA5325951785ACEE008F7E04 /* sławekparuszewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sławekparuszewski.jpg"; sourceTree = "<group>"; };
-		FA5325961785ACEE008F7E04 /* tomaszsekielski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomaszsekielski.jpg; sourceTree = "<group>"; };
-		FA5325971785ACEE008F7E04 /* wiktorosiatyński.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wiktorosiatyński.jpg"; sourceTree = "<group>"; };
-		FA5325981785ACEE008F7E04 /* wojciechkrzyżaniak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wojciechkrzyżaniak.jpg"; sourceTree = "<group>"; };
-		FA5325991785ACEE008F7E04 /* pawełsito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pawełsito.jpg"; sourceTree = "<group>"; };
-		FA53259A1785ACEE008F7E04 /* karolinagłowacka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "karolinagłowacka.jpg"; sourceTree = "<group>"; };
-		FA53259B1785ACEE008F7E04 /* kamilgapiński.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kamilgapiński.jpg"; sourceTree = "<group>"; };
-		FA53259C1785ACEE008F7E04 /* kacpermerk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kacpermerk.jpg; sourceTree = "<group>"; };
-		FA53259D1785ACEE008F7E04 /* jacekbalkan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacekbalkan.jpg; sourceTree = "<group>"; };
-		FA53259E1785ACEE008F7E04 /* ewapodolska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ewapodolska.jpg; sourceTree = "<group>"; };
-		FA53259F1785ACEE008F7E04 /* agnieszkalichnerowicz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agnieszkalichnerowicz.jpg; sourceTree = "<group>"; };
-		FA5325AB1785AD25008F7E04 /* janwróbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "janwróbel.jpg"; sourceTree = "<group>"; };
-		FA5325AC1785AD25008F7E04 /* katarzynaszustow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = katarzynaszustow.jpg; sourceTree = "<group>"; };
-		FA5325AD1785AD25008F7E04 /* dominikawielowieyska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dominikawielowieyska.jpg; sourceTree = "<group>"; };
-		FA5325AE1785AD25008F7E04 /* jacekżakowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jacekżakowski.jpg"; sourceTree = "<group>"; };
-		FA5325AF1785AD25008F7E04 /* annawacławik-orpik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "annawacławik-orpik.jpg"; sourceTree = "<group>"; };
-		FA5325B51785AED7008F7E04 /* pawełsulik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pawełsulik.jpg"; sourceTree = "<group>"; };
-		FA5325B71785AF51008F7E04 /* joannasolska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joannasolska.jpg; sourceTree = "<group>"; };
-		FA5325B91785AFED008F7E04 /* przemysławiwańczyk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "przemysławiwańczyk.jpg"; sourceTree = "<group>"; };
-		FA5325BB1785B06B008F7E04 /* marzenamazur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marzenamazur.jpg; sourceTree = "<group>"; };
-		FA5325BD1785B092008F7E04 /* maciejjarząb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maciejjarząb.jpg"; sourceTree = "<group>"; };
-		FA5325BF1785B0CE008F7E04 /* dorotasumińska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dorotasumińska.jpg"; sourceTree = "<group>"; };
-		FA5325C11785B10A008F7E04 /* agatakowalska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agatakowalska.jpg; sourceTree = "<group>"; };
-		FA5325C31785B1F4008F7E04 /* hannazielińska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hannazielińska.jpg"; sourceTree = "<group>"; };
-		FAA138CC1785BF0700ADE41B /* tomaszkwaśniewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tomaszkwaśniewski.jpg"; sourceTree = "<group>"; };
-		FAA138CD1785BF0700ADE41B /* łukaszwojtusik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "łukaszwojtusik.jpg"; sourceTree = "<group>"; };
-		FAA138CE1785BF0700ADE41B /* danielpassent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danielpassent.jpg; sourceTree = "<group>"; };
+		FA7085231785ED650049F9C7 /* agatakowalska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agatakowalska.jpg; sourceTree = "<group>"; };
+		FA7085241785ED650049F9C7 /* agnieszkalichnerowicz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agnieszkalichnerowicz.jpg; sourceTree = "<group>"; };
+		FA7085251785ED650049F9C7 /* aleksandradziadykiewicz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aleksandradziadykiewicz.jpg; sourceTree = "<group>"; };
+		FA7085261785ED650049F9C7 /* annawacławik-orpik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "annawacławik-orpik.jpg"; sourceTree = "<group>"; };
+		FA7085271785ED650049F9C7 /* bartoszdąbrowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bartoszdąbrowski.jpg"; sourceTree = "<group>"; };
+		FA7085281785ED650049F9C7 /* cezaryłasiczka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cezaryłasiczka.jpg"; sourceTree = "<group>"; };
+		FA7085291785ED650049F9C7 /* danielpassent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danielpassent.jpg; sourceTree = "<group>"; };
+		FA70852A1785ED650049F9C7 /* dominikawielowieyska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dominikawielowieyska.jpg; sourceTree = "<group>"; };
+		FA70852B1785ED650049F9C7 /* dorotasumińska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dorotasumińska.jpg"; sourceTree = "<group>"; };
+		FA70852C1785ED650049F9C7 /* ewapodolska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ewapodolska.jpg; sourceTree = "<group>"; };
+		FA70852D1785ED650049F9C7 /* hannazielińska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hannazielińska.jpg"; sourceTree = "<group>"; };
+		FA70852E1785ED650049F9C7 /* jacekbalkan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jacekbalkan.jpg; sourceTree = "<group>"; };
+		FA70852F1785ED650049F9C7 /* jacekżakowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jacekżakowski.jpg"; sourceTree = "<group>"; };
+		FA7085301785ED650049F9C7 /* jakubjaniszewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakubjaniszewski.jpg; sourceTree = "<group>"; };
+		FA7085311785ED650049F9C7 /* janinaparadowska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janinaparadowska.jpg; sourceTree = "<group>"; };
+		FA7085321785ED650049F9C7 /* janstradowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = janstradowski.jpg; sourceTree = "<group>"; };
+		FA7085331785ED650049F9C7 /* janwróbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "janwróbel.jpg"; sourceTree = "<group>"; };
+		FA7085341785ED650049F9C7 /* joannasolska.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joannasolska.jpg; sourceTree = "<group>"; };
+		FA7085351785ED650049F9C7 /* kacpermerk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kacpermerk.jpg; sourceTree = "<group>"; };
+		FA7085361785ED650049F9C7 /* kamilgapiński.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kamilgapiński.jpg"; sourceTree = "<group>"; };
+		FA7085371785ED650049F9C7 /* kamilwróblewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kamilwróblewski.jpg"; sourceTree = "<group>"; };
+		FA7085381785ED650049F9C7 /* karolinagłowacka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "karolinagłowacka.jpg"; sourceTree = "<group>"; };
+		FA7085391785ED650049F9C7 /* katarzynaszustow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = katarzynaszustow.jpg; sourceTree = "<group>"; };
+		FA70853A1785ED650049F9C7 /* łukaszwojtusik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "łukaszwojtusik.jpg"; sourceTree = "<group>"; };
+		FA70853B1785ED650049F9C7 /* maciejgłogowski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maciejgłogowski.jpg"; sourceTree = "<group>"; };
+		FA70853C1785ED650049F9C7 /* maciejjarząb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maciejjarząb.jpg"; sourceTree = "<group>"; };
+		FA70853D1785ED650049F9C7 /* marzenamazur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marzenamazur.jpg; sourceTree = "<group>"; };
+		FA70853E1785ED650049F9C7 /* mikołajlizut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mikołajlizut.jpg"; sourceTree = "<group>"; };
+		FA70853F1785ED650049F9C7 /* patrycjawanat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = patrycjawanat.jpg; sourceTree = "<group>"; };
+		FA7085401785ED650049F9C7 /* pawełsito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pawełsito.jpg"; sourceTree = "<group>"; };
+		FA7085411785ED650049F9C7 /* pawełsulik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pawełsulik.jpg"; sourceTree = "<group>"; };
+		FA7085421785ED650049F9C7 /* piotradamczewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piotradamczewski.jpg; sourceTree = "<group>"; };
+		FA7085431785ED650049F9C7 /* piotrmaślak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "piotrmaślak.jpg"; sourceTree = "<group>"; };
+		FA7085441785ED650049F9C7 /* przemysławiwańczyk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "przemysławiwańczyk.jpg"; sourceTree = "<group>"; };
+		FA7085451785ED650049F9C7 /* ryszardwojciul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryszardwojciul.jpg; sourceTree = "<group>"; };
+		FA7085461785ED650049F9C7 /* sławekparuszewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sławekparuszewski.jpg"; sourceTree = "<group>"; };
+		FA7085471785ED650049F9C7 /* tadeuszmosz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tadeuszmosz.jpg; sourceTree = "<group>"; };
+		FA7085481785ED650049F9C7 /* tomaszkwaśniewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tomaszkwaśniewski.jpg"; sourceTree = "<group>"; };
+		FA7085491785ED650049F9C7 /* tomaszraczek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomaszraczek.jpg; sourceTree = "<group>"; };
+		FA70854A1785ED650049F9C7 /* tomaszsekielski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomaszsekielski.jpg; sourceTree = "<group>"; };
+		FA70854B1785ED650049F9C7 /* wiktorosiatyński.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wiktorosiatyński.jpg"; sourceTree = "<group>"; };
+		FA70854C1785ED650049F9C7 /* wojciechkrzyżaniak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wojciechkrzyżaniak.jpg"; sourceTree = "<group>"; };
+		FA7085771785F1200049F9C7 /* DONowPlayingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DONowPlayingViewController.h; sourceTree = "<group>"; };
+		FA7085781785F1200049F9C7 /* DONowPlayingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DONowPlayingViewController.m; sourceTree = "<group>"; };
 		FAA681D51784A2BF008AD6EB /* RadioDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioDataModel.h; sourceTree = "<group>"; };
 		FAA681D61784A2BF008AD6EB /* RadioDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioDataModel.m; sourceTree = "<group>"; };
 		FAAC5D151784A62500ADACC7 /* DORadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DORadioViewController.h; sourceTree = "<group>"; };
@@ -305,6 +306,8 @@
 				FA02F5311784914300AEBD51 /* DOAppDelegate.m */,
 				FAA681D51784A2BF008AD6EB /* RadioDataModel.h */,
 				FAA681D61784A2BF008AD6EB /* RadioDataModel.m */,
+				FA7085771785F1200049F9C7 /* DONowPlayingViewController.h */,
+				FA7085781785F1200049F9C7 /* DONowPlayingViewController.m */,
 				FA02F5331784914300AEBD51 /* Main.storyboard */,
 				FAAC5D151784A62500ADACC7 /* DORadioViewController.h */,
 				FAAC5D161784A62500ADACC7 /* DORadioViewController.m */,
@@ -317,7 +320,7 @@
 				FA02F5391784914300AEBD51 /* DOSecondViewController.h */,
 				FA02F53A1784914300AEBD51 /* DOSecondViewController.m */,
 				FA02F53C1784914300AEBD51 /* Images.xcassets */,
-				FA4519DB1784DE43009F1667 /* People */,
+				FA7085221785ED550049F9C7 /* People */,
 				FA02F5AB1784917400AEBD51 /* Covers */,
 				FA02F5281784914300AEBD51 /* Supporting Files */,
 			);
@@ -402,52 +405,51 @@
 			name = Covers;
 			sourceTree = "<group>";
 		};
-		FA4519DB1784DE43009F1667 /* People */ = {
+		FA7085221785ED550049F9C7 /* People */ = {
 			isa = PBXGroup;
 			children = (
-				FA1557391785C07500EB2F8A /* ryszardwojciul.jpg */,
-				FAA138CC1785BF0700ADE41B /* tomaszkwaśniewski.jpg */,
-				FAA138CD1785BF0700ADE41B /* łukaszwojtusik.jpg */,
-				FAA138CE1785BF0700ADE41B /* danielpassent.jpg */,
-				FA5325AB1785AD25008F7E04 /* janwróbel.jpg */,
-				FA1557481785C30E00EB2F8A /* tomaszraczek.jpg */,
-				FA5325AC1785AD25008F7E04 /* katarzynaszustow.jpg */,
-				FA5325AD1785AD25008F7E04 /* dominikawielowieyska.jpg */,
-				FA5325AE1785AD25008F7E04 /* jacekżakowski.jpg */,
-				FA1557401785C1EA00EB2F8A /* patrycjawanat.jpg */,
-				FA1557411785C1EA00EB2F8A /* janstradowski.jpg */,
-				FA1557441785C24000EB2F8A /* bartoszdąbrowski.jpg */,
-				FA5325AF1785AD25008F7E04 /* annawacławik-orpik.jpg */,
-				FA15573E1785C1C200EB2F8A /* kamilwróblewski.jpg */,
-				FA5325951785ACEE008F7E04 /* sławekparuszewski.jpg */,
-				FA5325961785ACEE008F7E04 /* tomaszsekielski.jpg */,
-				FA5325971785ACEE008F7E04 /* wiktorosiatyński.jpg */,
-				FA5325981785ACEE008F7E04 /* wojciechkrzyżaniak.jpg */,
-				FA5325991785ACEE008F7E04 /* pawełsito.jpg */,
-				FA53259A1785ACEE008F7E04 /* karolinagłowacka.jpg */,
-				FA53259B1785ACEE008F7E04 /* kamilgapiński.jpg */,
-				FA53259C1785ACEE008F7E04 /* kacpermerk.jpg */,
-				FA5325C31785B1F4008F7E04 /* hannazielińska.jpg */,
-				FA53259D1785ACEE008F7E04 /* jacekbalkan.jpg */,
-				FA53259E1785ACEE008F7E04 /* ewapodolska.jpg */,
-				FA53259F1785ACEE008F7E04 /* agnieszkalichnerowicz.jpg */,
-				FA1557461785C27700EB2F8A /* mikołajlizut.jpg */,
-				FA4519D91784DE3A009F1667 /* tadeuszmosz.jpg */,
-				FA5325871785AA63008F7E04 /* piotrmaślak.jpg */,
-				FA4CF7BE1785A5A700897AD5 /* placeholder@2x.jpg */,
-				FA5325891785AAB4008F7E04 /* aleksandradziadykiewicz.jpg */,
-				FA53258B1785ABBE008F7E04 /* piotradamczewski.jpg */,
-				FA53258C1785ABBE008F7E04 /* maciejgłogowski.jpg */,
-				FA53258D1785ABBE008F7E04 /* janinaparadowska.jpg */,
-				FA53258E1785ABBE008F7E04 /* jakubjaniszewski.jpg */,
-				FA5325B51785AED7008F7E04 /* pawełsulik.jpg */,
-				FA5325B71785AF51008F7E04 /* joannasolska.jpg */,
-				FA53258F1785ABBE008F7E04 /* cezaryłasiczka.jpg */,
-				FA5325C11785B10A008F7E04 /* agatakowalska.jpg */,
-				FA5325BB1785B06B008F7E04 /* marzenamazur.jpg */,
-				FA5325BD1785B092008F7E04 /* maciejjarząb.jpg */,
-				FA5325BF1785B0CE008F7E04 /* dorotasumińska.jpg */,
-				FA5325B91785AFED008F7E04 /* przemysławiwańczyk.jpg */,
+				FA7085231785ED650049F9C7 /* agatakowalska.jpg */,
+				FA7085241785ED650049F9C7 /* agnieszkalichnerowicz.jpg */,
+				FA7085251785ED650049F9C7 /* aleksandradziadykiewicz.jpg */,
+				FA7085261785ED650049F9C7 /* annawacławik-orpik.jpg */,
+				FA7085271785ED650049F9C7 /* bartoszdąbrowski.jpg */,
+				FA7085281785ED650049F9C7 /* cezaryłasiczka.jpg */,
+				FA7085291785ED650049F9C7 /* danielpassent.jpg */,
+				FA70852A1785ED650049F9C7 /* dominikawielowieyska.jpg */,
+				FA70852B1785ED650049F9C7 /* dorotasumińska.jpg */,
+				FA70852C1785ED650049F9C7 /* ewapodolska.jpg */,
+				FA70852D1785ED650049F9C7 /* hannazielińska.jpg */,
+				FA70852E1785ED650049F9C7 /* jacekbalkan.jpg */,
+				FA70852F1785ED650049F9C7 /* jacekżakowski.jpg */,
+				FA7085301785ED650049F9C7 /* jakubjaniszewski.jpg */,
+				FA7085311785ED650049F9C7 /* janinaparadowska.jpg */,
+				FA7085321785ED650049F9C7 /* janstradowski.jpg */,
+				FA7085331785ED650049F9C7 /* janwróbel.jpg */,
+				FA7085341785ED650049F9C7 /* joannasolska.jpg */,
+				FA7085351785ED650049F9C7 /* kacpermerk.jpg */,
+				FA7085361785ED650049F9C7 /* kamilgapiński.jpg */,
+				FA7085371785ED650049F9C7 /* kamilwróblewski.jpg */,
+				FA7085381785ED650049F9C7 /* karolinagłowacka.jpg */,
+				FA7085391785ED650049F9C7 /* katarzynaszustow.jpg */,
+				FA70853A1785ED650049F9C7 /* łukaszwojtusik.jpg */,
+				FA70853B1785ED650049F9C7 /* maciejgłogowski.jpg */,
+				FA70853C1785ED650049F9C7 /* maciejjarząb.jpg */,
+				FA70853D1785ED650049F9C7 /* marzenamazur.jpg */,
+				FA70853E1785ED650049F9C7 /* mikołajlizut.jpg */,
+				FA70853F1785ED650049F9C7 /* patrycjawanat.jpg */,
+				FA7085401785ED650049F9C7 /* pawełsito.jpg */,
+				FA7085411785ED650049F9C7 /* pawełsulik.jpg */,
+				FA7085421785ED650049F9C7 /* piotradamczewski.jpg */,
+				FA7085431785ED650049F9C7 /* piotrmaślak.jpg */,
+				FA7085441785ED650049F9C7 /* przemysławiwańczyk.jpg */,
+				FA7085451785ED650049F9C7 /* ryszardwojciul.jpg */,
+				FA7085461785ED650049F9C7 /* sławekparuszewski.jpg */,
+				FA7085471785ED650049F9C7 /* tadeuszmosz.jpg */,
+				FA7085481785ED650049F9C7 /* tomaszkwaśniewski.jpg */,
+				FA7085491785ED650049F9C7 /* tomaszraczek.jpg */,
+				FA70854A1785ED650049F9C7 /* tomaszsekielski.jpg */,
+				FA70854B1785ED650049F9C7 /* wiktorosiatyński.jpg */,
+				FA70854C1785ED650049F9C7 /* wojciechkrzyżaniak.jpg */,
 			);
 			name = People;
 			sourceTree = "<group>";
@@ -529,94 +531,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5325A61785ACEE008F7E04 /* kamilgapiński.jpg in Resources */,
 				FA02F5911784915900AEBD51 /* z13394977D.jpg in Resources */,
+				FA7085681785ED650049F9C7 /* mikołajlizut.jpg in Resources */,
 				FA02F5951784915900AEBD51 /* z13394982D.jpg in Resources */,
+				FA7085711785ED650049F9C7 /* tadeuszmosz.jpg in Resources */,
+				FA7085541785ED650049F9C7 /* dominikawielowieyska.jpg in Resources */,
+				FA7085571785ED650049F9C7 /* hannazielińska.jpg in Resources */,
 				FA02F5841784915900AEBD51 /* z13394955D.jpg in Resources */,
-				FA5325B01785AD25008F7E04 /* janwróbel.jpg in Resources */,
+				FA7085581785ED650049F9C7 /* jacekbalkan.jpg in Resources */,
 				FA02F59E1784915900AEBD51 /* z13394992D.jpg in Resources */,
 				FA02F5821784915900AEBD51 /* z13394953D.jpg in Resources */,
 				FA02F5921784915900AEBD51 /* z13394978D.jpg in Resources */,
-				FA5325B41785AD25008F7E04 /* annawacławik-orpik.jpg in Resources */,
-				FA1557421785C1EA00EB2F8A /* patrycjawanat.jpg in Resources */,
 				FA02F5A31784915900AEBD51 /* z13394998D.jpg in Resources */,
 				FA02F5991784915900AEBD51 /* z13394987D.jpg in Resources */,
-				FA5325B61785AED7008F7E04 /* pawełsulik.jpg in Resources */,
 				FA02F5931784915900AEBD51 /* z13394980D.jpg in Resources */,
+				FA7085671785ED650049F9C7 /* marzenamazur.jpg in Resources */,
 				FA02F58E1784915900AEBD51 /* z13394973D.jpg in Resources */,
 				FA02F53D1784914300AEBD51 /* Images.xcassets in Resources */,
 				FA02F58A1784915900AEBD51 /* z13394965D.jpg in Resources */,
 				FA02F5981784915900AEBD51 /* z13394985D.jpg in Resources */,
-				FAA138D01785BF0700ADE41B /* łukaszwojtusik.jpg in Resources */,
-				FA5325C41785B1F4008F7E04 /* hannazielińska.jpg in Resources */,
+				FA7085661785ED650049F9C7 /* maciejjarząb.jpg in Resources */,
+				FA70855D1785ED650049F9C7 /* janwróbel.jpg in Resources */,
+				FA7085731785ED650049F9C7 /* tomaszraczek.jpg in Resources */,
+				FA70856B1785ED650049F9C7 /* pawełsulik.jpg in Resources */,
 				FA02F5AA1784915900AEBD51 /* z13966001D.jpg in Resources */,
-				FA5325BE1785B092008F7E04 /* maciejjarząb.jpg in Resources */,
-				FA5325BC1785B06B008F7E04 /* marzenamazur.jpg in Resources */,
-				FA53258A1785AAB4008F7E04 /* aleksandradziadykiewicz.jpg in Resources */,
-				FA5325C21785B10A008F7E04 /* agatakowalska.jpg in Resources */,
-				FA5325A01785ACEE008F7E04 /* sławekparuszewski.jpg in Resources */,
-				FA5325A41785ACEE008F7E04 /* pawełsito.jpg in Resources */,
+				FA7085521785ED650049F9C7 /* cezaryłasiczka.jpg in Resources */,
 				FA02F5881784915900AEBD51 /* z13394961D.jpg in Resources */,
-				FA5325B31785AD25008F7E04 /* jacekżakowski.jpg in Resources */,
-				FA5325B21785AD25008F7E04 /* dominikawielowieyska.jpg in Resources */,
+				FA70855A1785ED650049F9C7 /* jakubjaniszewski.jpg in Resources */,
+				FA7085751785ED650049F9C7 /* wiktorosiatyński.jpg in Resources */,
+				FA7085611785ED650049F9C7 /* kamilwróblewski.jpg in Resources */,
 				FA02F59A1784915900AEBD51 /* z13394988D.jpg in Resources */,
 				FA02F5A51784915900AEBD51 /* z13406087D.jpg in Resources */,
-				FA5325A31785ACEE008F7E04 /* wojciechkrzyżaniak.jpg in Resources */,
-				FA5325B81785AF51008F7E04 /* joannasolska.jpg in Resources */,
 				FA02F5A81784915900AEBD51 /* z13784118D.jpg in Resources */,
-				FA4519DA1784DE3A009F1667 /* tadeuszmosz.jpg in Resources */,
-				FA5325A91785ACEE008F7E04 /* ewapodolska.jpg in Resources */,
+				FA70856F1785ED650049F9C7 /* ryszardwojciul.jpg in Resources */,
+				FA7085531785ED650049F9C7 /* danielpassent.jpg in Resources */,
 				FA02F59C1784915900AEBD51 /* z13394990D.jpg in Resources */,
 				FA02F5891784915900AEBD51 /* z13394962D.jpg in Resources */,
 				FA02F52C1784914300AEBD51 /* InfoPlist.strings in Resources */,
-				FA15573A1785C07500EB2F8A /* ryszardwojciul.jpg in Resources */,
+				FA70854E1785ED650049F9C7 /* agnieszkalichnerowicz.jpg in Resources */,
 				FA02F5861784915900AEBD51 /* z13394957D.jpg in Resources */,
-				FA5325911785ABBE008F7E04 /* maciejgłogowski.jpg in Resources */,
-				FA5325921785ABBE008F7E04 /* janinaparadowska.jpg in Resources */,
 				FA02F5A11784915900AEBD51 /* z13394995D.jpg in Resources */,
-				FA5325B11785AD25008F7E04 /* katarzynaszustow.jpg in Resources */,
 				FA02F58C1784915900AEBD51 /* z13394968D.jpg in Resources */,
+				FA7085721785ED650049F9C7 /* tomaszkwaśniewski.jpg in Resources */,
+				FA7085511785ED650049F9C7 /* bartoszdąbrowski.jpg in Resources */,
+				FA7085601785ED650049F9C7 /* kamilgapiński.jpg in Resources */,
 				FA02F59F1784915900AEBD51 /* z13394993D.jpg in Resources */,
-				FA1557471785C27700EB2F8A /* mikołajlizut.jpg in Resources */,
-				FA5325941785ABBE008F7E04 /* cezaryłasiczka.jpg in Resources */,
-				FA1557451785C24000EB2F8A /* bartoszdąbrowski.jpg in Resources */,
+				FA70855F1785ED650049F9C7 /* kacpermerk.jpg in Resources */,
+				FA70855B1785ED650049F9C7 /* janinaparadowska.jpg in Resources */,
+				FA7085691785ED650049F9C7 /* patrycjawanat.jpg in Resources */,
+				FA70854D1785ED650049F9C7 /* agatakowalska.jpg in Resources */,
+				FA7085631785ED650049F9C7 /* katarzynaszustow.jpg in Resources */,
+				FA70856C1785ED650049F9C7 /* piotradamczewski.jpg in Resources */,
 				FA02F5AD1784918200AEBD51 /* tokfm.json in Resources */,
 				FA02F5851784915900AEBD51 /* z13394956D.jpg in Resources */,
+				FA7085591785ED650049F9C7 /* jacekżakowski.jpg in Resources */,
+				FA7085641785ED650049F9C7 /* łukaszwojtusik.jpg in Resources */,
+				FA70856A1785ED650049F9C7 /* pawełsito.jpg in Resources */,
+				FA7085761785ED650049F9C7 /* wojciechkrzyżaniak.jpg in Resources */,
 				FA02F59D1784915900AEBD51 /* z13394991D.jpg in Resources */,
-				FAA138CF1785BF0700ADE41B /* tomaszkwaśniewski.jpg in Resources */,
 				FA02F5871784915900AEBD51 /* z13394958D.jpg in Resources */,
+				FA7085561785ED650049F9C7 /* ewapodolska.jpg in Resources */,
+				FA7085651785ED650049F9C7 /* maciejgłogowski.jpg in Resources */,
 				FA02F5941784915900AEBD51 /* z13394981D.jpg in Resources */,
+				FA70855C1785ED650049F9C7 /* janstradowski.jpg in Resources */,
+				FA70856D1785ED650049F9C7 /* piotrmaślak.jpg in Resources */,
+				FA7085741785ED650049F9C7 /* tomaszsekielski.jpg in Resources */,
 				FA02F59B1784915900AEBD51 /* z13394989D.jpg in Resources */,
 				FA02F58B1784915900AEBD51 /* z13394966D.jpg in Resources */,
 				FA02F5971784915900AEBD51 /* z13394984D.jpg in Resources */,
+				FA7085621785ED650049F9C7 /* karolinagłowacka.jpg in Resources */,
 				FA02F5A91784915900AEBD51 /* z13965552D.jpg in Resources */,
-				FA1557491785C30E00EB2F8A /* tomaszraczek.jpg in Resources */,
 				FA02F5A01784915900AEBD51 /* z13394994D.jpg in Resources */,
-				FA5325A81785ACEE008F7E04 /* jacekbalkan.jpg in Resources */,
-				FA5325A51785ACEE008F7E04 /* karolinagłowacka.jpg in Resources */,
-				FAA138D11785BF0700ADE41B /* danielpassent.jpg in Resources */,
+				FA7085701785ED650049F9C7 /* sławekparuszewski.jpg in Resources */,
 				FA02F5901784915900AEBD51 /* z13394976D.jpg in Resources */,
-				FA5325AA1785ACEE008F7E04 /* agnieszkalichnerowicz.jpg in Resources */,
-				FA15573F1785C1C200EB2F8A /* kamilwróblewski.jpg in Resources */,
-				FA5325931785ABBE008F7E04 /* jakubjaniszewski.jpg in Resources */,
-				FA5325A21785ACEE008F7E04 /* wiktorosiatyński.jpg in Resources */,
-				FA5325A71785ACEE008F7E04 /* kacpermerk.jpg in Resources */,
-				FA5325901785ABBE008F7E04 /* piotradamczewski.jpg in Resources */,
 				FA02F5A71784915900AEBD51 /* z13770395D.jpg in Resources */,
 				FA02F5961784915900AEBD51 /* z13394983D.jpg in Resources */,
-				FA5325881785AA63008F7E04 /* piotrmaślak.jpg in Resources */,
 				FA02F5A61784915900AEBD51 /* z13406088D.jpg in Resources */,
 				FA02F5A21784915900AEBD51 /* z13394996D.jpg in Resources */,
-				FA4CF7BF1785A5A700897AD5 /* placeholder@2x.jpg in Resources */,
+				FA70855E1785ED650049F9C7 /* joannasolska.jpg in Resources */,
 				FA02F58F1784915900AEBD51 /* z13394974D.jpg in Resources */,
-				FA5325BA1785AFED008F7E04 /* przemysławiwańczyk.jpg in Resources */,
+				FA7085501785ED650049F9C7 /* annawacławik-orpik.jpg in Resources */,
+				FA70854F1785ED650049F9C7 /* aleksandradziadykiewicz.jpg in Resources */,
+				FA70856E1785ED650049F9C7 /* przemysławiwańczyk.jpg in Resources */,
 				FA02F5831784915900AEBD51 /* z13394954D.jpg in Resources */,
-				FA5325C01785B0CF008F7E04 /* dorotasumińska.jpg in Resources */,
-				FA5325A11785ACEE008F7E04 /* tomaszsekielski.jpg in Resources */,
 				FA02F5A41784915900AEBD51 /* z13406086D.jpg in Resources */,
+				FA7085551785ED650049F9C7 /* dorotasumińska.jpg in Resources */,
 				FA02F58D1784915900AEBD51 /* z13394969D.jpg in Resources */,
 				FA02F5351784914300AEBD51 /* Main.storyboard in Resources */,
-				FA1557431785C1EA00EB2F8A /* janstradowski.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +638,7 @@
 			files = (
 				FAA681D71784A2BF008AD6EB /* RadioDataModel.m in Sources */,
 				FA02F52E1784914300AEBD51 /* main.m in Sources */,
+				FA401D7A1785F1EE004EB2ED /* DONowPlayingViewController.m in Sources */,
 				FA02F53B1784914300AEBD51 /* DOSecondViewController.m in Sources */,
 				FA9607161784B420009EA8F9 /* DOProgrammingViewController.m in Sources */,
 				FA02F5321784914300AEBD51 /* DOAppDelegate.m in Sources */,
