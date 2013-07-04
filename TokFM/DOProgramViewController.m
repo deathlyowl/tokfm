@@ -28,6 +28,12 @@
     [self.navigationItem setTitle:title];
     [self.descriptionTextView setText:[program objectForKey:@"description"]];
     
+    
+    if ([[program objectForKey:@"host"] isKindOfClass:[NSDictionary class]]) {
+        [_hostLabel setText:[[program objectForKey:@"host"] objectForKey:_day]];
+    }
+    else [_hostLabel setText:[[[program objectForKey:@"host"] componentsSeparatedByString:@";"] firstObject]];
+    
 	// Do any additional setup after loading the view.
 }
 

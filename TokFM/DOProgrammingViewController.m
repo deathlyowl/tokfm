@@ -90,6 +90,7 @@
     DOProgramViewController *programViewController = (DOProgramViewController *)segue.destinationViewController;
     [programViewController setProgram:[self selectedProgram]];
     [programViewController setTitle:[self selectedTitle]];
+    [programViewController setDay:day];
 }
 
 - (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{

@@ -164,43 +164,96 @@
         <!--Program View Controller - EKG-->
         <scene sceneID="2bp-fd-KOb">
             <objects>
-                <viewController id="tVv-fD-WLy" customClass="DOProgramViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="tVv-fD-WLy" customClass="DOProgramViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJq-Ey-4N6">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPc-3W-zmK">
-                                <rect key="frame" x="20" y="82" width="280" height="276"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead1"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tadeuszmosz.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cb4-Mm-pdg">
                                 <rect key="frame" x="20" y="10" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tadeusz Mosz" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iai-1H-Bd2">
-                                <rect key="frame" x="82" y="31" width="218" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tadeusz Mosz" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iai-1H-Bd2">
+                                <rect key="frame" x="92" y="31" width="208" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline1"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="eZl-cG-mcd">
+                                <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="uyM-7z-S3W"/>
+                                    <barButtonItem image="159-voicemail" id="z0C-O3-VbZ">
+                                        <connections>
+                                            <segue destination="sFh-3u-2gK" kind="push" id="PVE-ON-HBn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="12-eye" id="icS-ry-pam">
+                                        <color key="tintColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="18-envelope" id="H55-iQ-Mh6"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="c6L-0Z-PcB"/>
+                                </items>
+                                <color key="tintColor" red="0.99215692280000001" green="0.98823535439999999" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJ7-35-qUA">
+                                <rect key="frame" x="40" y="82" width="240" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="EKG" id="hYj-qK-wne"/>
+                    <navigationItem key="navigationItem" title="EKG" id="hYj-qK-wne">
+                        <barButtonItem key="backBarButtonItem" title=" " id="2hk-8Y-vs0"/>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="descriptionTextView" destination="UPc-3W-zmK" id="sJk-j5-hpa"/>
+                        <outlet property="descriptionTextView" destination="GJ7-35-qUA" id="Rsf-ZK-JFI"/>
+                        <outlet property="hostLabel" destination="iai-1H-Bd2" id="Xwm-Pr-TWZ"/>
                         <outlet property="imageView" destination="cb4-Mm-pdg" id="cgj-9Z-YYN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpr-bG-hd4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2047" y="-684"/>
+        </scene>
+        <!--Table View Controller - Podcast-->
+        <scene sceneID="Cgd-L9-7xO">
+            <objects>
+                <tableViewController id="sFh-3u-2gK" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5gN-yT-m0C">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="nQQ-0t-Iw5">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sFh-3u-2gK" id="KSI-ZO-g2H"/>
+                            <outlet property="delegate" destination="sFh-3u-2gK" id="jFR-xU-nwV"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Podcast" id="KOg-ik-YSp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQ2-Hb-3TI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2047" y="108"/>
         </scene>
         <!--Table View Controller - Root View Controller-->
         <scene sceneID="Ptg-yU-IQ2">
@@ -227,7 +280,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVX-mj-AIA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="108"/>
+            <point key="canvasLocation" x="1047" y="954"/>
         </scene>
         <!--Table View Controller - Root View Controller-->
         <scene sceneID="vIk-tu-ov4">
@@ -238,14 +291,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="QlV-6s-Y7q">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="SDz-if-h9Z" style="IBUITableViewCellStyleDefault" id="QlV-6s-Y7q">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" ambiguous="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDz-if-h9Z">
+                                            <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="sFh-3u-2gK" kind="push" id="Ae6-bR-RtX"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
@@ -254,7 +319,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZR5-91-DgO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="880"/>
+            <point key="canvasLocation" x="1047" y="108"/>
         </scene>
         <!--Navigation Controller - Podcasty-->
         <scene sceneID="Esh-1O-G5I">
@@ -272,7 +337,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pDh-f4-YVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="503" y="880"/>
+            <point key="canvasLocation" x="515" y="108"/>
         </scene>
         <!--Navigation Controller - Informacje-->
         <scene sceneID="bzq-ZL-B6e">
@@ -289,7 +354,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b17-aL-7uF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="515" y="108"/>
+            <point key="canvasLocation" x="491" y="954"/>
         </scene>
         <!--Navigation Controller - Radio-->
         <scene sceneID="0oX-O1-ads">
@@ -311,6 +376,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="12-eye" width="24" height="16"/>
+        <image name="159-voicemail" width="32" height="14"/>
+        <image name="18-envelope" width="24" height="16"/>
         <image name="News" width="28" height="23"/>
         <image name="Podcasts" width="26" height="18"/>
         <image name="Radio" width="24" height="22"/>
@@ -324,4 +392,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="PVE-ON-HBn"/>
+    </inferredMetricsTieBreakers>
 </document>
