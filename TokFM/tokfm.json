@@ -253,6 +253,12 @@
 		"PTOK" : {
 			"podcast" : "http://www.tok.fm//pub/rss/podcast/tokfm-ptok.xml"
 		},
+        "Krakowskie Przedmieście" : {
+            "host" : "Łukasz Wojtusik",
+            "description" : "Formuła programu \"Krakowskie Przedmieście\" jest prosta - przez kwadrans na antenie Radia TOK FM skupiamy się na tym co w Krakowie ma swój kulturalny początek i koniec. \nDobre spektakle, ciekawe przedsięwzięcia, interesujący pisarze, świetni poeci, kontrowersyjne realizacje, unikalne festiwale - o tym z Krakowa donosi Łukasz Wojtusik.",
+            "contact" : "krakowskie@tok.fm",
+            "podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-krakowskie-przedmiescie.xml"
+        },
 		"Godziny Szczytu" : {
 			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-godzina-szczytu.xml",
             "description" : "Magazyn reporterów radia TOK FM. Wybór najciekawszych i najważniejszych tematów dnia w codziennej, godzinnej pigułce. Dynamiczne podsumowanie wydarzeń dnia, ale też wywiady, interwencje, reportaże, sprawy ważne i ciekawe: ogólnopolskie i lokalne, przygotowywane przez zespół kilkudziesięciu dziennikarzy TOK FM w Warszawie i innych największych miastach Polski."
