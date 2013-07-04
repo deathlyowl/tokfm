@@ -10,8 +10,8 @@
 
 @interface DOProgramViewController : UIViewController
 
-@property (nonatomic, retain) NSDictionary *program;
-@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSDictionary *programDictionary;
+@property (nonatomic, retain) NSString *programTitle;
 @property (nonatomic, retain) NSString *day;
 @property (strong, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (strong, nonatomic) IBOutlet UILabel *hostLabel;

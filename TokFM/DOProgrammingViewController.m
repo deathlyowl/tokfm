@@ -88,8 +88,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     DOProgramViewController *programViewController = (DOProgramViewController *)segue.destinationViewController;
-    [programViewController setProgram:[self selectedProgram]];
-    [programViewController setTitle:[self selectedTitle]];
+    [programViewController setProgramDictionary:[self selectedProgram]];
+    [programViewController setProgramTitle:[self selectedTitle]];
     [programViewController setDay:day];
 }
 

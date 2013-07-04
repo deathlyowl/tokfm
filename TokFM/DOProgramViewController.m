@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation DOProgramViewController
-@synthesize program, title;
+@synthesize programDictionary, programTitle;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,16 +25,33 @@
 {
     [_imageView.layer setCornerRadius:32];
     [super viewDidLoad];
-    [self.navigationItem setTitle:title];
-    [self.descriptionTextView setText:[program objectForKey:@"description"]];
+    [self configureView];
+}
+
+- (void) configureView
+{
+    [self.navigationItem setTitle:programTitle];
+    [self.descriptionTextView setText:[programDictionary objectForKey:@"description"]];
     
+    NSString *hostName;
     
-    if ([[program objectForKey:@"host"] isKindOfClass:[NSDictionary class]]) {
-        [_hostLabel setText:[[program objectForKey:@"host"] objectForKey:_day]];
-    }
-    else [_hostLabel setText:[[[program objectForKey:@"host"] componentsSeparatedByString:@";"] firstObject]];
+    if ([[programDictionary objectForKey:@"host"] isKindOfClass:[NSDictionary class]])
+        hostName = [[programDictionary objectForKey:@"host"] objectForKey:_day];
+    else
+        hostName = [[[programDictionary objectForKey:@"host"] componentsSeparatedByString:@";"] firstObject];
     
-	// Do any additional setup after loading the view.
+    [_hostLabel setText:hostName];
+    
+    NSString *hostImagename = [[hostName lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    UIImage *avatar = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:hostImagename
+                                                                                       ofType:@"jpg"]];
+    
+    NSLog(@"F: %@ — %@", hostName, hostImagename);
+    NSLog(@"I: %@", avatar);
+    
+    if (avatar) [_imageView setImage:avatar];
+
 }
 
 - (void)didReceiveMemoryWarning

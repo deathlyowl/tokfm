@@ -223,7 +223,7 @@
 			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-pierwsze-sniadanie.xml"
 		},
 		"Pierwszy Gospodarczy Program Radia TOK FM" : {
-			"host" : "Aleksandra Diadykiewicz"
+			"host" : "Aleksandra Dziadykiewicz"
 		},
 		"Andymateria" : {
 			"host" : "Anna Wacławik-Orpik;Anda Rottenberg",
@@ -254,7 +254,8 @@
 			"podcast" : "http://www.tok.fm//pub/rss/podcast/tokfm-ptok.xml"
 		},
 		"Godziny Szczytu" : {
-			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-godzina-szczytu.xml"
+			"podcast" : "http://www.tok.fm/pub/rss/podcast/tokfm-godzina-szczytu.xml",
+            "description" : "Magazyn reporterów radia TOK FM. Wybór najciekawszych i najważniejszych tematów dnia w codziennej, godzinnej pigułce. Dynamiczne podsumowanie wydarzeń dnia, ale też wywiady, interwencje, reportaże, sprawy ważne i ciekawe: ogólnopolskie i lokalne, przygotowywane przez zespół kilkudziesięciu dziennikarzy TOK FM w Warszawie i innych największych miastach Polski."
 		},
 		"Codzienny Magazyn Motoryzacyjny" : {
 			"host" : "Jacek Balkan;Sławek Paruszewski",
